@@ -1,0 +1,13 @@
+ File has been used for this event: church_list.csv
+ Type of the imported file: csv
+ Revision of the which is used: 3
+ Mode of event: Insert
+ Total no of records: 6
+ Rows handled on each iterations (Based on your server configuration): 1
+ File used to import data into: church (church)
+[2018-03-07 07:22:24] Message: Inserted church ID: 3031,  Status: draft  Click here to verify - Web View | Admin View 
+[2018-03-07 07:22:26] Message: Inserted church ID: 3032,  Status: publish  Click here to verify - Web View | Admin View 
+[2018-03-07 07:22:27] Message: Inserted church ID: 3033,  Status: draft  Click here to verify - Web View | Admin View 
+[2018-03-07 07:22:28] Message: Inserted church ID: 3034,  Status: draft  Click here to verify - Web View | Admin View 
+[2018-03-07 07:22:30] Message: Inserted church ID: 3035,  Status: draft  Click here to verify - Web View | Admin View 
+[2018-03-07 07:22:32] Message: Inserted church ID: 3036,  Status: draft church_tag: PK-10 School  Click here to verify - Web View | Admin View 

@@ -1,0 +1,2824 @@
+/*img.blog_post_img {
+    width: 100%;
+}
+*/
+
+img.blog_post_img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    /*max-height: 350px;*/
+}
+.blog_posts_div {
+    /* text-align: left; */
+    margin-top: 3%;
+    /*background: #80808026;*/
+        padding-top: 3%;
+        margin-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.my_pagination .current, .my_pagination .page-numbers{
+    display: none;
+}
+
+.my_pagination .next, .single_next_prev_cont .right{
+    display: inline-block !important;
+    float: right;
+}
+
+.my_pagination .prev, .single_next_prev_cont .left{
+    display: inline-block !important;
+    float: left;
+}
+
+
+.my-post-nav-links .my-prev-post {
+    float: left;
+}
+
+.my-post-nav-links .my-next-post{
+    float: right;
+}
+
+
+.my-next-post a, .my-prev-post a {
+    /* width: 25% !important; */
+    text-align: center;
+    border-color: #8d8d8d;
+    color: #8d8d8d;
+    font-family: worksansm;
+    border: 1px solid #8d8d8d;
+    /* padding: 4%; */
+    font-size: 12px;
+    padding: 9px 21px;
+    display:inline-block;
+}
+
+
+.single_next_prev_cont .left a, .single_next_prev_cont .right a{
+    text-align: center;
+    border-color: #8d8d8d;
+    color: #8d8d8d;
+    font-family: worksansm;
+    border: 1px solid #8d8d8d;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 9px 21px;
+}
+
+.my-post-nav-links {
+    margin-top: 6%;
+}
+
+.blog_post_title a {
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+}
+
+.blog_post_title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+.news_tag_back {
+    background-color: #efefef !important;
+}
+
+.blog_post_description p {
+    font-size: 17px;
+}
+
+.blog_post_description {
+	text-align: justify;
+}
+
+.blog_posts_tags {
+    text-align: left;
+    margin-top: 2%;
+}
+
+.blog_posts_tags p {
+    font-size: 15px;
+}
+
+.blog_post_date, .event_date_time{
+    text-align: left;
+    color: #8d8d8d;
+    font-family: librebaskerviller;
+    font-style: italic;
+}
+
+.blog_news_main_container {
+    margin-top: 4%;
+}
+
+.blog_post_grid .col-sm {
+    padding: 16px;
+    border: 2px solid #fff;
+}
+
+.blog_post_grid {
+    background: #80808038;
+    margin-right: 13%;
+    margin-top: 6%;
+}
+
+.blog_stories_div.blogpost_stories_ {
+    /*width: 90%;*/
+        margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.blog_stories_feature_image {
+    /* text-align: left; */
+        padding: 2%;
+}
+
+.post_stories_divider {
+    /*border: 1px solid #c7c6c6;*/
+    border-bottom: 1px solid #575757;
+    margin-top: 3%;
+}
+
+.blog_posts_div.blog_posts_ .blog_post_title a {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: oswald;
+}
+
+.blog_single_title h1 a {
+     font-size: 38px; 
+    font-weight: bold;
+    font-family: oswald;
+}
+
+.blog_single_date {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-style: italic !important;
+    margin-left: 2px;
+    color: #8d8d8d;
+    font-size: 16px;
+    text-align: left;
+}
+
+.single-post .wpb_column.vc_column_container.vc_col-sm-9 {
+    float: left;
+    width: 75%;
+}
+.single-post .wpb_column.vc_column_container.vc_col-sm-3{
+    width: 25%;
+    float: left;
+}
+
+
+.blog_stories_title a {
+    color: #333333;
+    font-family: oswald;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.news_divider {
+    margin-top: 4%;
+    border-top: solid 1px #575757;
+}
+
+a.btn_links.news_readmore_btn {
+    width: 22%;
+    text-align: center;
+    border-color: #8d8d8d;
+    color: #8d8d8d;
+    font-family: worksansm;
+}
+
+ul.posts_tag_list li {
+    float: none;
+    text-align: left;
+}
+
+ul.posts_tag_list li a{
+    font-size: 14px;
+    color: #8d8d8d;
+    font-family: librebaskerviller;
+    margin: 1% 0;
+}
+
+a.btn_links.news_submit_btn, a.btn_links.event_submit_btn{
+    color: #fff;
+    font-family: worksans;
+    border: solid 1px #cecece;
+    background: #4e307e;
+    width: 100%;
+    font-size: 14px;
+}
+
+.blog_stories_post_date {
+    text-align: left;
+    color: #8d8d8d;
+    font-style: italic;
+    font-family: librebaskerviller;
+    font-size: 12px;
+    margin: 2% 0;
+}
+
+a.btn_links.news_submit_btn:hover, a.btn_links.event_submit_btn:hover{
+    color: #4e307e;
+    background: #fff;
+}
+
+.news_sidebar_divider {
+    border-top: 1px solid #707070;
+    margin-top: 14% !important;
+}
+
+.blog_stories_right {
+    display: inline-block;
+    width: 61%;
+    text-align: left;
+     line-height: 20px;
+}
+
+.blog_stories_title a {
+    color: #333;
+    font-weight: 500;
+     display: inline-block;
+    width: 100%;
+    line-height: 16px;
+}
+
+.blog_stories_lists {
+    margin-top: 5%;
+    width: 98%;
+}
+
+.blog_stories_description {
+    font-size: 11px;
+    text-align: left;
+}
+
+.blog_stories_feature_image img {
+    width: 100px;
+    height: 100px;
+}
+
+.blog_stories_title a {
+    font-size: 12px;
+}
+
+.share_container_line {
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+span.share_title {
+    color: #333333;
+    font-size: 16px;
+    display: inline-block;
+    float: left;
+}
+
+.single-post .addthis_inline_share_toolbox_dr3u.addthis_tool {
+    float: left;
+    clear:none !important;
+}
+
+.blog_single_div {
+    margin-top: 3%;
+    text-align: left;
+}
+
+.single-post .single_post_back {
+    padding-top: 35px;
+    background: #efefef;
+    padding-bottom: 4px;
+}
+
+.blog_single_title a {
+    color: #333;
+}
+
+.blog_single_date {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-style: italic;
+    margin-left: 2px;
+}
+
+/*.blog_single_feature_image img {
+    width: 65%;
+}
+*/
+
+.eo-events .blog_post_title a {
+    /* line-height: 30px; */
+    font-size: 30px;
+    font-weight: bold;
+    font-family: oswald;
+}
+
+.backto_all_event {
+    /* display: inline-block; */
+    margin-top: 5%;
+}
+
+.backto_all_event a {
+    text-align: center;
+    border-color: #8d8d8d;
+    color: #8d8d8d;
+    font-family: worksansm;
+    border: 1px solid #8d8d8d;
+    font-size: 12px;
+    padding: 9px 21px;
+    display: inline-block;
+}
+
+.backto_all_event a::before {
+    content: '\f100';
+    font-family: FontAwesome;
+}
+
+a.event_custom_map {
+    color: #4d307d;
+}
+
+.diocese_calendar_div iframe {
+    width: 100%;
+}
+
+.diocese_calendar_child{
+    display: none;
+}
+
+/*.custom_event_div .top_event_title_div {
+    cursor: pointer;
+}*/
+
+.top_event_title_active{
+    background-color: #4f2d7f !important;
+    color: white !important;
+}
+
+.top_event_title_active a{
+    color: white !important;
+}
+
+.blog_single_feature_image img {    
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+.blog_single_description {
+    margin-top: 2%;
+}
+
+.btn_div.single_blog_purchase {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.top_event_toggle_heading{
+    font-size: 16px !important;
+    color: #4f2d7f !important;
+    font-weight: 500 !important;
+    font-family: worksans !important;
+    margin-bottom: 0;
+}
+
+
+.top_event_toggle_div{
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #4f2d7f;
+    margin: 1%;
+    padding: 3%;
+    width: 48% !important;
+}
+
+
+.top_event_toggle_div:hover{
+    background: #fff;
+    color: #4f2d7f;
+}
+
+.full_calender_container {
+    margin-top: 3%;
+}
+
+li.eo-event-future {
+    margin-bottom: 1%;
+}
+
+ul.eo-event-meta li {
+    clear: both;
+}
+
+.calender_top_section {
+    /*padding-top: 4%;*/
+    padding-bottom: 4%;
+    margin-left: 2% !important;
+    margin-right: 0% !important;
+}
+
+.top_event_title_div{
+    display: inline-block;
+    /*background: grey;*/
+    border: 2px solid #4f2d7f;
+    margin: 1%;
+    padding: 3%;
+    padding-left: 13% !important;
+    padding-right: 13% !important;
+    width: 48% !important;
+}
+
+.top_toggle_calendar_div .btn_div {
+    margin: 2%;
+}
+
+.top_toggle_calendar_div a.calendar_toggle_btn {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-family: worksans;
+    padding: 4%;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.top_toggle_calendar_div a.calendar_toggle_btn:hover{
+    color: #fff !important;
+    background:#401b77;
+}
+
+.top_toggle_calendar_div a.calendar_toggle_btn:focus{
+    color: #fff !important;
+}
+
+
+.event_calender_div {
+    padding-left: 2%;
+}
+
+.top_event_heading{
+	letter-spacing: 1px;
+    font-size: 29px !important;
+    color: #4f2d7f !important;
+    font-weight: 500 !important;
+    font-family: inherit !important;
+}
+
+.event_addr {
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-style: italic;
+}
+
+span.event_addr_span {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.leader_visitation_heading {
+    margin-bottom: 10%;
+}
+
+.sub_leader_visit_text {
+    text-align: left;
+}
+
+.sub_leader_visit_text p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.sub_leader_visit_title{
+	font-weight: 600 !important;
+    font-family: inherit !important;
+    font-size: 18px !important;
+}
+
+.leader_visitation_div {
+    width: 23% !important;
+    padding-left: 1%;
+}
+
+.vc_custom_heading.leader_visit_title {
+    width: 89%;
+    padding-top: 5%;
+}
+
+.full_calender_container.demo-container {
+    margin-top: 2% !important;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    color: #fff;
+    text-decoration:none;
+}
+ 
+.navigation li {
+    display: inline;
+}
+ 
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    background-color: #6FB7E9;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 12px;
+    padding: 0.75rem;
+}
+ 
+.navigation li a:hover,
+.navigation li.active a {
+    background-color: #3C8DC5;
+}
+
+.vc_custom_heading.content_heading.resource_title{
+    margin-bottom: 5% !important;
+}
+
+/*.content_headingr.esource_quote{
+    margin-bottom: 4%;
+}*/
+
+
+/*jay DT 01/03/2018 */
+.financecanonsheading{
+    font-weight: 400 !important;
+    font-family: weiss w01 roman !important;
+    margin-bottom: 30px;
+}
+
+ul.my_content_li li {
+    clear: both;
+
+}
+
+.content_heading{
+	margin-bottom: 5% !important;
+}
+
+.my_content_li{
+	overflow: inherit;
+	list-style-type: initial !important;
+	padding-left: 15px !important;
+}
+
+.my_mission_table{
+
+}
+
+table.my_data_table {
+    border: 1px dashed grey;
+}
+
+table.my_data_table tr {
+    border: 1px dashed;
+}
+
+table.my_data_table td {
+    border: 1px dashed;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    /* padding: 14px 10px; */
+    text-decoration: none;
+    margin: 14px 10px;
+}
+
+.eo-events.eo-events-widget {
+
+}
+.eo-events.eo-events-widget li {
+    text-align:left;
+    font-family: Oswald !important;
+    font-size:14px;
+    margin:0 0;
+    padding:1rem 0;
+    border-bottom:solid 1px #575757;
+}
+.eo-events.eo-events-widget li a {
+    text-align:left;
+    font-family: Oswald !important;
+    margin:0 0;
+    font-size:14px;
+}
+.slid a:hover, .slid a:focus {
+    border-bottom: 2px solid;
+}
+
+.slid .dropdown-content a:hover, .slid .dropdown-content a:focus {
+    border-bottom: none;
+}
+
+a.sub-menu-link.menu_color.mreg.custom_active {
+    /*border-bottom: 2px solid #4d307d;*/
+        /*display: inline-block;*/
+    color: #4d307d;
+    /* margin: 12px 16px; */
+    /*padding: 0;*/
+}
+
+.custom_active a.main-menu-item-link{
+	border-bottom: 2px solid #4d307d;
+}
+
+.custom_top_heading{
+	font-size: 45px !important;
+    padding-bottom: 30px;
+
+}
+
+.single_feature_post_div {
+    padding-top: 2%;
+}
+
+
+.pagination {
+    clear:both;
+    position:relative;
+    font-size:11px; /* Pagination text size */
+    line-height:13px;
+    float:right; /* Pagination float direction */
+}
+ 
+.pagination span, .pagination a {
+    display:block;
+    float:left;
+    margin: 2px 2px 2px 0;
+    padding:6px 9px 5px 9px;
+    text-decoration:none;
+    width:auto;
+    color:#fff; /* Pagination text color */
+    background: #555; /* Pagination non-active background color */
+    -webkit-transition: background .15s ease-in-out;
+    -moz-transition: background .15s ease-in-out;
+    -ms-transition: background .15s ease-in-out;
+    -o-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+}
+ 
+.pagination a:hover{
+    color:#fff !important;
+    background: #4d307d; /* Pagination background on hover */
+}
+ 
+.pagination .current{
+    padding:6px 9px 5px 9px;
+    background: #4d307d; /* Current page background */
+    color:#fff;
+}
+
+select#church_service_time {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #b5aeae;
+    /* text-decoration: underline; */
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 0;
+    /*color: #b5aeae;*/
+    color: #605858;
+}
+
+select#church_service_language {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #b5aeae;
+    /* text-decoration: underline; */
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 0;
+    /*color: #b5aeae;*/
+    color: #605858;
+}
+
+.lang_filter{
+	margin-top: 1%;
+}
+
+.cs-infos {
+    display: none;
+}
+
+.row.church_map_search {
+    height: 823px;
+}
+
+.chr_ri {
+    width: 82%;
+    float: left;
+}
+
+/*.page-id-397 .chr_ri {
+    width: 82%;
+}*/
+
+.event_filter_params {
+    float: left;
+    /*margin: 1%;*/
+    margin: 6px;
+}
+
+.events_srch_label{
+	display: block;
+}
+
+/*.church_map_search .gm-style > div > div > div:nth-child(4) > div {
+    background-image: url('/wp-content/themes/episcopalatlanta/images/arrow.png');    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 38% 96%;
+}
+.church_map_search .gm-style > div > div > div:nth-child(4) img {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 100% !important;
+    border: 3px solid #482173 !important;
+}*/
+
+span.fc-header-dropdown.filter-category {
+    margin-left: 7px;
+}
+
+select.eo-fc-filter.eo-fc-filter-category {
+    width: 58%;
+    padding: 6px;
+}
+
+
+.blog_single_div .eo-event-meta a{
+    color: #0275d8;
+}
+
+.blog_single_div .entry-content{
+        margin-bottom: 2%;
+}
+
+.singe_event_pagination {
+    margin: 1% auto;
+}
+
+select#event_category_name {
+    padding: 5px;
+}
+
+.event_search_div {
+    margin-left: 2%;
+}
+
+.footer_part4 input.btn_email {
+    color: #fff;
+}
+
+.mc4wp-form-fields {
+    text-align: left;
+}
+
+.footer_part4 .mc4wp-form-fields input.btn_email {
+    width: 67%;
+}
+
+.footer_part4 .sub_cont {
+    width: 100%;
+}
+
+/*li.slick-active button#slick-slide-control00 {
+    background: #4c307c !important;
+}
+
+li.slick-active button#slick-slide-control01 {
+    background: #4c307c !important;
+}
+
+li.slick-active button#slick-slide-control02 {
+    background: #4c307c !important;
+}*/
+
+.dynamic_title_back {
+    background: #efefef;
+    padding-top: 22px !important;
+}
+
+.dynamic_title_heading{
+    font-family: oswaldbold;
+    padding-bottom: 13px;
+}
+
+.no_event_found {
+    font-size: 22px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.faith_share_toolbox {
+    text-align: left;
+}
+
+.faith_post_date {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+    font-style: italic;
+    font-family: LibreBaskerville;
+}
+
+img.faith_blog_post_img {
+    width: 100%;
+}
+
+.faith_feature_image{
+    margin-bottom: 2%;
+}
+
+.invited_left.wpb_column{
+    text-align: left;
+}
+
+.invited_left.wpb_column a.btn_links, .find_place_btn a.btn_links{
+    border: 1px solid;
+    padding: 9px 21px;
+    font-size: 11px;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #502681 !important;
+    color: #fff !important;
+    /*border-radius: 6px !important;*/
+}
+
+.wpb_text_column.wpb_content_element.invited_text p {
+    font-size: 14px;
+    font-weight: 600 !important;
+    line-height: 26px;
+}
+
+.invited_heading {
+    margin-bottom: 5%;
+}
+
+.invited_left.wpb_column .vc_column-inner {
+    padding-top: 0;
+}
+
+.your_journey {
+    color: #502681;
+    font-weight: 600;
+}
+
+.episco_believe_right{
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.episco_believe_left{
+    /*text-align: left;*/
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+li.resources_list {
+    width: 19%;
+    display: inline-block;
+    border: 1px solid #575757;
+    float: none;
+}
+
+li.resources_list a{
+    margin: 0;
+}
+
+a.more-resources {
+    text-align: left;
+    padding: 3.5em 0.4em 0.4em;
+    line-height: 1.25em;
+    color: #fff;
+    background: url(/wp-content/uploads/2018/03/plus.png) no-repeat 0.4em 1.5em #502581;
+}
+
+a.more-resources:hover {
+    color: #fff;
+    background: url(/wp-content/uploads/2018/03/plus.png) no-repeat 0.4em 1.5em #a184c1;
+}
+
+.find_place_2.you_invited_div{
+    background: url(/wp-content/uploads/2018/03/top-gradient.png) repeat-x center top #e7e8e9 !important;
+    /*width: 100%;*/
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.find_place_2.episco_belive_div{
+    background: url(/wp-content/uploads/2018/03/top-gradient-2.png) repeat-x center top, url(/wp-content/uploads/2018/03/bottom-gradient-2.png) repeat-x center bottom, url(/wp-content/uploads/2018/03/border-left_w.gif) repeat-y top left, url(/wp-content/uploads/2018/03/border-right_w.gif) repeat-y top right;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.make_connection_img {
+    width: 40%;
+    float: left;
+}
+
+.make_connection_text {
+    text-align: left;
+}
+
+.make_connection_text p {
+    font-size: 13px;
+}
+
+.make_connection_text .btn_div {
+    text-align: left !important;
+}
+
+.make_connection_text a.btn_links.btn_link1 {
+    background: #2c1348;
+    border: none !important;
+    /*border-radius: 4px !important;*/
+    font-size: 11px;
+}
+
+
+.place_welcome_btns .btn_div.place_btns {
+    float: left;
+}
+
+.place_welcome_btns a.btn_links.btn_link1 {
+    font-size: 11px;
+    letter-spacing: 0px !important;
+    background: #502681;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px !important;*/
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.place_welcome_btns .btn_div.place_btns:first-child {
+    margin-right: 1%;
+}
+.place_welcome_btns .btn_div.place_btns:nth-child(2){
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.place_welcome_btns .btn_div.place_btns:nth-child(3) {
+    margin-left: 1%;
+}
+
+
+.we_welcome_right{
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.we_welcome_left{
+    /*text-align: left;*/
+    margin-right: 2%;
+    /*margin-left: 2%;*/
+}
+
+.we_welcome_right span {
+    font-size: 30px;
+    /* font-family: inherit; */
+    line-height: 43px;
+}
+
+.welcome_first_heading {
+    clear: both;
+    font-family: inherit !important;
+    font-weight: 500 !important;
+}
+
+.insp_date_div.welcome_first_div{
+
+    background: url(/wp-content/uploads/2018/03/swirl.png) no-repeat center top, url(/wp-content/uploads/2018/03/border-left_w.gif) repeat-y top left, url(/wp-content/uploads/2018/03/border-right_w.gif) repeat-y top right;
+}
+
+.inspiration_date_title.welcome_second_heading {
+    color: #502581;
+    font-size: 1.867em !important;
+    border-top: 3px solid #777676;
+    padding: 0.65em !important;
+    display: inline-block;
+}
+
+.top-round {
+    width: 100%;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 0;
+    margin: -88px auto 0;
+    background: url(/wp-content/uploads/2018/03/round.png) no-repeat center bottom;
+}
+
+.faith_power_cont.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill > .vc_column-inner.vc_custom_1521458978913 {
+    padding: 18% 0% !important;
+}
+
+.bold_faith_right{
+    text-align: left;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.bold_faith_left{
+    text-align: left;
+    margin-right: 2%;
+    /*margin-left: 2%;*/
+}
+
+.bold_faith_left p {
+    font-size: 1.067em;
+}
+
+.bold_faith_article_div{
+    text-align: left;
+}
+
+.bold_faith_article_div p{
+    font-size: 1.067em;
+}
+
+.bold_faith_img img{
+    box-shadow: 0 0 10px 0 #404040;
+    -webkit-box-shadow: 0 0 10px 0 #404040;
+}
+
+.bold_faith_article_div a.btn_links.btn_link1 {
+    font-size: 11px;
+    letter-spacing: 0px !important;
+    background: #502681;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px !important;*/
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.find_place_2.god_calling_div{
+    background: url(/wp-content/uploads/2018/03/top-gradient.png) repeat-x center top #e7e8e9;
+    /*width: 100%;*/
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.god_calling_left{
+    text-align: left;
+}
+
+
+.god_calling_right img{
+      box-shadow: 0 0 10px 0 #404040;
+    -webkit-box-shadow: 0 0 10px 0 #404040;
+        width: 100%;
+}
+
+
+.god_calling_left a {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.god_calling_right{
+    width: 36%;
+}
+
+.god_calling_heading {
+    margin-bottom: 4%;
+}
+
+
+.god_calling_left.wpb_column .vc_column-inner {
+    padding-top: 0;
+}
+
+
+.god_calling_right h3{
+    font-family: inherit !important;
+    font-size: 1.25em !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+}
+
+.god_calling_left h3{
+    font-family: inherit !important;
+   font-size: 1.5em !important;
+   font-weight: 500 !important;
+   color: #000 !important;
+}
+
+.god_calling_right ul{
+    width: 70%;
+    text-align: left;
+}
+
+.god_calling_right li{
+    color: #000;
+}
+
+
+.god_calling_right ul a{
+    margin: 0;
+    margin-bottom: 1em !important;
+    color: #502581;
+    background: none;
+    border-radius: 0;
+    float: none;
+    font-size: inherit;
+}
+
+.find_place_2.path_purple_background{
+    background-image: url(/wp-content/uploads/2018/03/top-gradient.png), url(/wp-content/uploads/2018/03/bottom-gradient.png), url(/wp-content/uploads/2018/03/purple-trees.jpg);
+    background-position: top left, bottom left, center left;
+    background-size: 10px 57px, 2px 57px, cover;
+    background-repeat: repeat-x, repeat-x, no-repeat;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+
+.faith_power_cont.wpb_column.vc_column_container.vc_col-sm-12.vc_col-has-fill > .vc_column-inner.vc_custom_1521465623899 {
+    padding: 18% 0% !important;
+}
+
+.devotion_community_div .more_devotion{
+    float: left;
+}
+
+.devotion_community_div .devotion_community{
+    padding: 5px 0px 1.5em 3.5em;
+    float: right;
+    background: url(/wp-content/uploads/2018/03/community.png) no-repeat left 0.5em;
+}
+
+.devotion_community_div a.btn_links.btn_link1 {
+    font-size: 11px;
+    letter-spacing: 0px !important;
+    background: #502681;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px !important;*/
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.faith_weekly{
+    text-align: left;
+}
+
+.some_wonder_text p {
+    font-size: 17px;
+}
+
+.safe_img_div img{
+    width: 96%;
+}
+a.safe_img{
+    float: left;
+}
+
+.find_place_2.event_sacred_div {
+    background: url(/wp-content/uploads/2018/03/top-gradient-2.png) repeat-x center top, url(/wp-content/uploads/2018/03/bottom-gradient-2.png) repeat-x center bottom, url(/wp-content/uploads/2018/03/border-left_w.gif) repeat-y top left, url(/wp-content/uploads/2018/03/border-right_w.gif) repeat-y top right;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.event_sacred_left{
+    text-align: left;
+}
+
+.event_sacred_left.wpb_column .vc_column-inner {
+    padding-top: 0;
+}
+
+.event_sacred_left h3, .event_sacred_right h3{
+    color: #502581 !important;
+    font-family: inherit !important;
+    font-weight: 500 !important;
+}
+
+.event_sacred_left a.btn_links.btn_link1 {
+    font-size: 11px;
+    letter-spacing: 0px !important;
+    background: #502681;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px !important;*/
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.down-button #scroll:hover {
+    background: url(/wp-content/uploads/2018/03/down-arrow_on.png) center top no-repeat;
+}
+
+
+.sitemap_custom_div ul.page-list{
+        list-style: initial !important;
+    margin: auto;
+    padding:  0 0 0 40px;
+    text-align: left;
+    overflow: visible;
+}
+
+.sitemap_custom_div ul.page-list ul.children {
+    list-style: disc !important;
+    padding: 0 0 0 40px;
+}
+
+.sitemap_custom_div .page-list li{
+    float: none;
+}
+
+.search_banner{
+    background-size: contain !important;
+}
+
+.main_filter_params {
+    float: left;
+    margin-top: 
+}
+
+.main_search_btn.main_filter_params{
+    margin-left: 1%;
+    margin-right: 1%; 
+}
+
+.search_hr{
+    border-top: 3px solid #777676;
+    margin: 2em 0;
+    padding-top: 1px;
+}
+
+.search_result_banner{
+    background-image: url(/wp-content/uploads/2018/03/gatestlukes.jpg?id=4133) !important;
+    background-repeat: no-repeat !important;
+}
+
+#episcopalatlanta_menu li.main-menu-item.dropdown:first-child {
+    display: none !important;
+}
+
+.wpsisac-slick-slider.design-2 .slick-image-slide .slide-wrap .slide-title{
+    text-shadow: none !important;
+}
+
+.page.page-id-1422 .wpsisac-slick-slider.design-2 .slick-image-slide .slide-wrap .slider-overlay{
+    background: rgba(0, 0, 0, 0.22) !important;
+}
+
+/*.page-id-1422 h2.slide-title{
+    font-family: librebaskerviller !important;
+    font-size: 24px !important;
+    line-height: 22px !important;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.page-id-1422 .slider_title a{
+    font-size: 60px !important;
+    line-height: 65px !important;
+    font-family: oswaldbold !important;
+    color: #fff;
+}*/
+
+
+
+
+.page-id-733 h2.slide-title, .ministries_page_slider h2.slide-title{
+    font-family: librebaskerviller !important;
+    font-size: 24px !important;
+    line-height: 34px !important;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.page-id-733 .slider_title, .ministries_page_slider .slider_title{
+    font-size: 60px !important;
+    line-height: 65px !important;
+    font-family: oswaldbold !important;
+    color: #fff;
+}
+
+@media (max-width: 480px){
+
+    .page-id-733 h2.slide-title, .ministries_page_slider h2.slide-title{
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+
+    .page-id-733 .slider_title, .ministries_page_slider .slider_title{
+        line-height: 35px !important;
+        font-size: 30px !important;
+    }
+
+}
+
+
+
+
+
+.page-id-1422 .slider_title a:hover, .page-id-1422 .slider_title a:focus, .page-id-1422 .slider_title a{
+    color: #fff !important;
+}
+
+
+.page-id-1422 .wpsisac-slick-slider button.slick-prev, .page-id-1422 .wpsisac-slick-slider button.slick-prev, .page-id-1422 .wpsisac-slick-slider button.slick-prev, .page-id-1422 .wpsisac-slick-slider button.slick-next, .page-id-1422 .wpsisac-slick-slider button.slick-next, .page-id-1422 .wpsisac-slick-slider button.slick-next, .page-id-1422 .wpb_wrapper .wpsisac-slick-slider button.slick-prev, .page-id-1422 .wpb_wrapper .wpsisac-slick-slider button.slick-next {
+    background-color: transparent !important;
+}
+
+.page-id-3028 .calendar_div iframe {
+    width: 100%;
+}
+
+.page-id-270 .lvca-accordion.lvca-style1 .lvca-panel{
+    /*border-bottom: 2px solid #b7b7b7;
+    border-top: none;
+    border-radius: 0px;*/
+    border-bottom: none;
+    border-top: 1px solid #b7b7b7;
+    border-radius: 0px;
+}
+.page-id-1444 .lvca-accordion.lvca-style1 .lvca-panel{
+     /*border-bottom: 2px solid #b7b7b7;
+     border-top: none;
+     border-radius: 0px;*/
+     border-bottom: none;
+     border-top: 1px solid #b7b7b7;
+     border-radius: 0px;
+ }
+
+.page-id-4503 .lvca-accordion.lvca-style1 .lvca-panel{
+    /*border-bottom: 2px solid #b7b7b7;
+    border-top: none;
+    border-radius: 0px;*/
+    border-bottom: none;
+    border-top: 1px solid #b7b7b7;
+    border-radius: 0px;
+}
+.page-id-4503 .lvca-accordion.lvca-style1 .lvca-panel .lvca-panel-content p a{
+    font-size: 16px;
+    font-family: oswald;
+}
+.page-id-4503 .lvca-accordion.lvca-style1 .lvca-panel .lvca-panel-content a{
+    font-size: 16px;
+    font-family: oswald;
+}
+
+.page-id-270 .lvca-accordion.lvca-style1 .lvca-panel:last-child{
+    border-bottom: none;
+}
+
+.page-id-1444 .lvca-accordion.lvca-style1 .lvca-panel:first-child{
+    border-top: none;
+}
+.page-id-4503 .lvca-accordion.lvca-style1 .lvca-panel:first-child{
+    border-top: none;
+}
+
+.page-id-270 .lvca-accordion.lvca-style1 .lvca-panel:hover .lvca-panel-title {
+    background: #f7f7f7;
+}
+.page-id-1444 .lvca-accordion.lvca-style1 .lvca-panel:hover .lvca-panel-title {
+    background: #f7f7f7;
+}
+.page-id-4503 .lvca-accordion.lvca-style1 .lvca-panel:hover .lvca-panel-title {
+    background: #f7f7f7;
+}
+
+.page-id-270 .vc_row.wpb_row.vc_row-fluid.vc_custom_1518502717688 {
+    margin-top: 2%;
+    margin-bottom: 7% !important;
+}
+
+.page-id-270 .lvca-accordion.lvca-style1 .lvca-panel:not(:first-child) {
+    margin-top: 2px;
+}
+.page-id-1444 .lvca-accordion.lvca-style1 .lvca-panel:not(:first-child) {
+    margin-top: 2px;
+}
+.page-id-4503 .lvca-accordion.lvca-style1 .lvca-panel:not(:first-child) {
+    margin-top: 2px;
+}
+
+.page-id-136 .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    /*margin-bottom: 0 !important;*/
+}
+.page-id-270 .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    /*margin-bottom: 35px !important;*/
+}
+.page-id-538 .vc_column-inner {
+    padding-top:0px!important;
+}
+
+
+.page-id-747 .wpb_content_element {
+    margin-bottom:25px!important;
+}
+
+.page-id-270 .whatit_text{
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.page-id-270 .email_being_episco {
+    margin-top: 5%;
+}
+
+.page-id-270 span.episco_email {
+    color: #4d307d;
+    text-decoration: underline;
+}
+
+.page-id-1602 .wpb_text_column.wpb_content_element a.donation_click {
+    color: #4d307d !important;
+}
+
+.more_video_btn_div a.btn_links.btn_link1, .latest_post_btn a.btn_links.btn_link1{
+    color: #575757 !important;
+    border-color: #8d8d8d !important;
+    /* line-height: 33px; */
+}
+
+.more_video_btn_div a.btn_links.btn_link1:hover, .latest_post_btn a.btn_links.btn_link1:hover{
+    color: #4f2d80 !important;
+    border-color: #4f2d80 !important;
+    /* line-height: 33px; */
+}
+
+.page-id-347 .more_video_btn_div {
+    margin-top: 4%;
+    margin-bottom: 3% !important;
+}
+
+.page-id-347 .more_video_btn_div .wpb_video_widget .wpb_wrapper iframe {
+    border-radius: 0px !important;
+}
+
+.page-id-347 .html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
+    background-color: #8e8e8e;
+    border: none;
+    border-radius: 0px;
+}
+
+.page-id-347 .ytp-cued-thumbnail-overlay-image {
+    border-radius: 0px !important;
+}
+
+.page-id-347 .ytp-cued-thumbnail-overlay{
+    border-radius: 0px !important;
+}
+
+.page-id-347 .insta_title {
+    margin-bottom: 3%;
+    color: #333333 !important;
+}
+
+.page-id-347 .intagram_feeds_div {
+    padding-top: 6%;
+}
+
+
+
+.page-id-347 .compassionate_div {
+    margin-bottom: 4%;
+}
+
+.page-id-347 .recent-post-slider .slick-dots li button{
+        background: #d5cfcf !important;
+            border: 1px solid #d5cfcf;
+}
+
+
+.page-id-347 li.slick-active button#slick-slide-control01 {
+    background: #7b7b7ad1 !important;
+}
+
+.page-id-347 li.slick-active button#slick-slide-control00 {
+    background: #7b7b7ad1 !important;
+}
+
+.page-id-347 li.slick-active button#slick-slide-control02 {
+    background: #7b7b7ad1 !important;
+}
+
+.page-id-538 .vc_custom_1521809463283{
+    background-position: center !important;
+}
+
+/*.page-id-538 .our_purpose_div.mid_section {
+    padding-top: 2%;
+}*/
+
+a.sub-menu-link.menu_color.mreg.custom_active {
+    color: #4d307d !important;
+}
+
+.our_purpose_div.with_background.vc_custom_1519038991642.vc_row-has-fill {
+    padding-top: 35px;
+}
+
+.eda_sticky_footer {
+    z-index: 99;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+
+
+.page-id-2341 .find_location_sub_head{
+     margin-bottom: 0px !important; 
+}
+
+.page-id-2341 .chrch_search_cont{
+    background: #fff;
+    /*width: 300px;*/
+}
+
+.page-id-2341 #imaginary_container{
+    padding: 12px;
+}
+
+.page-id-2341 .church_filter_sort{
+    margin-bottom: 0;
+    padding-bottom: 2%;
+}
+
+.page-id-2341 .right_info_window {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+.find_church_map .church_list_container:hover {
+    /*padding-left: 3px;*/
+    /*padding-left: 14px;*/
+}
+
+.lang_filter {
+    width: 43% !important;
+}
+
+
+/*.page-id-397 .row.church_map_search.find_church_map {
+     margin-top: -1px !important; 
+}*/
+
+.dept_staff.wpb_column.vc_column_container.vc_col-sm-12 {
+    margin-bottom: 4%;
+}
+
+.demo-container.retired-bishops-content {
+    margin-bottom: 4% !important;
+}
+
+section.vc_section.demo-container.canons-content {
+    margin-bottom: 2% !important;
+}
+
+section.vc_section.demo-container.staff-content {
+    margin-bottom: 2% !important;
+}
+
+
+.custom_slider_anchor{
+    color: #fff;
+}
+
+.custom_slider_anchor:hover,.custom_slider_anchor:focus{
+    color: #fff !important;
+}
+
+.page-id-733 .school_content,
+.page-id-4708 .school_content{
+    text-align: left;
+}
+
+.page-id-733 .btn_div, .page-id-136 .btn_div, .page-id-4708 .btn_div{
+    text-align: left !important;
+}
+
+.page-id-733 .school_content p {
+    font-size: 16px;
+    color: #8d8d8d;
+}
+
+.page-id-733 a.btn_links.btn_link1{
+    border: solid 1px #8d8d8d !important;
+    color: #8d8d8d !important;
+}
+
+.page-id-733 .wpsisac-slick-slider.design-2 .slick-image-slide .slide-wrap .slider-overlay {
+    background: rgba(0, 0, 0, 0.22) !important;
+}
+
+
+.page-id-136 .ministries_content{
+    text-align: left;
+    width: 88%;
+}
+
+.page-id-136 .ministries_content p {
+    font-size: 16px;
+    color: #8d8d8d;
+}
+
+.page-id-136 a.btn_links.btn_link1{
+    border: solid 1px #8d8d8d !important;
+    color: #8d8d8d !important;
+}
+
+.page-id-136 .wpsisac-slick-slider.design-2 .slick-image-slide .slide-wrap .slider-overlay {
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.page-id-4708 .wpsisac-slick-slider.design-2 .slick-image-slide .slide-wrap .slider-overlay {
+    background: rgba(0, 0, 0, 0.0) !important;
+}
+
+.slick-image-slide.custom_slider_anchor {
+    cursor: pointer;
+}
+
+.common_search_btn{
+    height: 31px;
+    font-size: 16px !important;
+    line-height: 16px;
+    border-radius: 0;
+    border: 1px solid #4e307e;
+    background-color: #4e307e !important;
+    outline: none !important;
+    color: white !important;
+    margin: 0 1%;
+}
+
+.main_search_form {
+    text-align: left;
+}
+
+.common_search_btn.disabled, .common_search_btn:disabled {
+    cursor: not-allowed;
+    opacity: .65;
+}
+
+.search.search-results .sidebar_with_dropdown, .page-id-4131 .sidebar_with_dropdown{
+    margin-top: 0;
+}
+
+.search_sidebar_vc_custom{
+    background-color: #dadada9e;
+}
+
+.main_search_result_div {
+    text-align: left;
+    margin-top: 3%;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+
+span.main_search_span {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.sqs-block-content {
+    margin: 4% 0;
+}
+
+hr.faith_post_divider {
+    border-top: 1px solid #bbb;
+}
+
+.page-id-3866 .blog_post_title {
+    text-transform: uppercase;   
+}
+
+.page-id-3866 .blog_post_title a{
+    font-weight: 400 !important;
+    font-family: Oswald;
+}
+
+.page-id-3866 .blog_post_title a:hover{
+    color: #4f2882 !important;
+}
+
+.page-id-135 .first_video_div {
+    margin-top: 4%;
+}
+
+.page-id-135 .wpb_heading.wpb_video_heading {
+    color: #4f2882;
+    text-align: left;
+    font-weight: 400 !important;
+    font-size: 24px;
+    letter-spacing: .01em;
+    margin-bottom: 3%;
+}
+
+.page-id-135 .videos_grid_div .wpb_video_heading{
+    margin-bottom: 6%;
+}
+
+
+.page-id-135 .video_grid_text p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 4%;
+}
+
+.page-id-135 .videos_grid_div .wpb_column.vc_column_container.vc_col-sm-6 {
+    padding: 2%;
+}
+
+img.video_ref_back {
+    display: block;
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    width: 92%;
+    /*height: 51%;*/
+    height: 281px;
+    z-index: 0;
+}
+
+.custom_breadcrumb {
+    text-align: left;
+    /*margin-left: 8%;*/
+    font-size: 12px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.custom_breadcrumb a {
+    color: #401b77;
+}
+
+.wpb_text_column.wpb_content_element.path {
+    display: none;
+}
+
+.page-id-133 .custom_breadcrumb{
+    display: none;
+}
+
+/*add event page*/
+
+.submit_post_frontend_form input#event_title {
+    width: 100%;
+    background-color: #f4f4f4;
+    border: solid 1px #cecece;
+    height: 35px;
+    color: #333333;
+}
+
+.container-fluid.event_submit_container {
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+
+.submit_post_frontend_form .event_submit_div {
+    text-align: left;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+
+.submit_post_frontend_form .featured_image_div {
+    margin-top: 1%;
+    display: inline-block;
+}
+
+
+.submit_post_frontend_form .event_submit_div input#submit {
+    color: #fff;
+    font-family: worksans;
+    border: solid 1px #cecece;
+    background: #4e307e;
+    padding: 9px 21px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.8px !important;
+}
+
+.submit_post_frontend_form .event_title_labels {
+    text-align: left;
+    font-family: Oswald !important;
+    font-size: 23px !important;
+    margin-bottom: 2%;
+}
+
+.submit_post_frontend_form .event_details_div {
+    margin-top: 2%;
+    text-align: left;
+}
+
+.submit_post_frontend_form .e_detail_child {
+    float: left;
+    margin-bottom: 4%;
+}
+
+.submit_post_frontend_form .e_detail_span.e_detail_child {
+    margin-right: 1%;
+}
+
+.submit_post_frontend_form .e_start_field.e_detail_child, .page-id-4340 .e_end_field.e_detail_child{
+    margin: 0 1%;
+}
+
+.submit_post_frontend_form .event_error_msg{
+    font-size: 24px;
+    color: red;
+    margin-bottom: 2%;
+}
+
+
+.sqs-video-icon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background: transparent url('/wp-content/uploads/2018/04/play-button.png') center center no-repeat;
+    height: 48px;
+    width: 48px;
+    margin-left: -24px;
+    margin-top: -24px;
+    cursor: pointer;
+}
+
+.video_playback_result {
+    /*height: 281px;*/
+    height: 259px;
+    display: none;
+}
+
+.recent-post-slider.design-4 .slick-dots{
+    display: none !important;
+}
+
+.featured-custom-catgory {
+    color: #4f2d80;
+    /*border-bottom: 6px solid #c2c2c4;
+    padding-bottom: 11px;
+    display: inline-block;*/
+    margin-top: 4%;
+}
+
+.featured-custom-catgory:after {
+    content: "";
+    display: block;
+    /* margin: 0 auto; */
+    width: 23%;
+    padding-top: 12px;
+    border-bottom: 6px solid #c2c2c4;
+}
+
+.vc_row.wpb_row.vc_row-fluid.location-slider {
+    padding-top: 3%;
+}
+
+@media (min-width: 768px){
+    .search-results .vc_col-sm-1 {
+        width: 8.33333333%;
+        min-height: 1px;
+    }
+
+    .search-results .vc_col-sm-3 {
+        width: 25%;
+    }
+
+    .search-results .vc_col-sm-1, .search-results .vc_col-sm-3, .search-results .vc_col-sm-7{
+        float: left;
+
+    }
+
+    .search-results .vc_col-sm-7 {
+        width: 58.33333333%;
+    }
+}
+
+.search-results .vc_clearfix:after, .search-results .vc_column-inner:after, .search-results .vc_el-clearfix, .search-results .vc_row:after {
+    clear: both;
+}
+
+.image-section img {
+    width: 100%;
+}
+
+.page-id-747 .no_result, .page-id-397 .no_result{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+@media (min-width: 1200px){
+    .worship_page_layer{
+        width: 1170px !important;
+        margin: 0px auto !important;
+        float: none;
+        padding: 0 30px;
+    }
+
+    .dc_page_layer{
+        width: 1170px !important;
+        margin: auto !important;
+        float: none;
+        padding: 0 30px;
+    }
+
+    .for_faith_carousel_div{
+        width: 1170px !important;
+        margin: auto !important;
+        float: none;
+    }
+
+    .visitation_page_layer{
+        width: 1170px !important;
+        margin: auto !important;
+        float: none;
+        padding: 0 150px;
+    }
+
+    .ministries_page_layer{
+        width: 1170px !important;
+        margin: auto !important;
+        float: none;
+    }
+}
+
+
+.diocese_calendar_child.dc_page_layer, .sidebar_with_dropdown.dc_page_layer, .sidebar_with_dropdown.ministries_page_layer{
+    margin-top: 0px !important;
+}
+
+.faq_category_heading_div.visitation_page_layer{
+    margin-top: 4% !important;
+    margin-bottom: 4% !important;
+}
+
+input#theeventdate::placeholder, input#event_search_term::placeholder{
+    text-transform: uppercase;
+    font-family: worksans;
+}
+
+select#event_category_name option {
+    font-family: worksans;
+    text-transform: uppercase;
+}
+
+select#event_category_name {
+    color: #747474;
+    font-family: worksans;
+    padding-top: 3px;
+}
+
+.event_filter_params button {
+    padding-top: 7px;
+    font-family: worksans;
+    text-transform: uppercase;
+}
+
+.fc-toolbar button, .fc-center h2{
+    font-family: worksans;
+    text-transform: uppercase;
+}
+
+.event_filter_params {
+    margin: 0px 9px 0px 0px !important;
+}
+
+.full_calender_container .blog_post_title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.eo-events .blog_posts_div{
+    font-family: worksans;
+}
+
+.full_calender_container .blog_post_description p {
+    font-family: librebaskerviller !important;
+}
+
+.full_calender_container .fc-state-default{
+    text-shadow: none;
+}
+
+@media (min-width: 768px){
+
+    .page-id-4708 ul.slick-dots, .page-id-1422 ul.slick-dots, .page-id-733 ul.slick-dots, .ministries_page_slider ul.slick-dots{
+        display: block !important;
+    }
+
+}
+
+.page-id-1422 .wpsisac-slick-slider.design-2 .slick-dots, .page-id-733 .wpsisac-slick-slider.design-2 .slick-dots, .ministries_page_slider .wpsisac-slick-slider.design-2 .slick-dots{
+    left: 50% !important;
+    right: inherit;
+    transform: translate(-50%, -50%);
+}
+.page-id-4708 .wpsisac-slick-slider.design-2 .slick-dots {
+    left: 50% !important;
+    right: inherit;
+    transform: translate(-50%, -50%);
+}
+
+
+.page-id-4708 .wpsisac-slick-slider .slick-dots li.slick-active button, .page-id-1422 .wpsisac-slick-slider .slick-dots li.slick-active button, .page-id-733 .wpsisac-slick-slider .slick-dots li.slick-active button, .ministries_page_slider .wpsisac-slick-slider .slick-dots li.slick-active button{
+    background: #fff !important;
+    opacity: 1;
+}
+
+.page-id-4708 .wpsisac-slick-slider .slick-dots li button, .page-id-1422 .wpsisac-slick-slider .slick-dots li button, .page-id-733 .wpsisac-slick-slider .slick-dots li button, .ministries_page_slider .wpsisac-slick-slider .slick-dots li button{
+    opacity: .4;
+    border-color: #fff;
+    width: 9px !important;
+    height: 9px !important;
+    margin: 0 2px !important;
+}
+
+.canons-content a, .staff-content a {
+    font-family: librebaskerviller;
+}
+
+.canons-content img, .staff-content img {
+    /*max-width: 100px;*/
+    /*width: 100px;*/
+    /*height: 136px;*/
+}
+
+.blog_news_sidebar input{
+    margin:auto !important;
+}
+
+.blog_news_sidebar form.wpr-search-form button.wpr_submit.search-icon.mreg {
+    top: 7px !important;
+}
+
+input.news_or_event_search::placeholder {
+    font-size: 14px;
+    color: #575757;
+    font-family: worksans;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    padding-left: 6px !important;
+}
+
+h2.vc_custom_heading.event_submit_title{
+    margin-bottom: 10%;
+}
+
+/*a.btn_links.newsletter_btn {
+    width: 50%;
+    font-size: 14px;
+    display: inherit;
+
+    color: #333 !important;
+    border: 1px solid #fff !important;
+    width: 50%;
+    background: white;
+    transition: 0.6s;
+}*/
+
+a.btn_links.newsletter_btn, a.btn_links.newsletter_btn:focus, a.btn_links.newsletter_btn:active{
+    /*color: #fff;*/
+    width: 50%;
+    color: #fff;
+    border: solid 1px #4e307e !important;
+    background: #4e307e;
+    display: inherit;
+    font-family: worksansm;
+    font-size: 14px;
+}
+
+a.btn_links.newsletter_btn:hover{
+   /* color: #fff;
+    border: 1px solid #fff !important;
+    width: 50%;*/
+
+    color: #333 !important;
+    border: 1px solid #fff !important;
+    width: 50%;
+    background: white;
+    font-family: worksansm;
+    transition: 0.6s;
+    font-size: 14px;
+}
+
+.footer_part4 .input_email {
+    margin-top: 7%;
+}
+
+.horizon_logo {
+    text-align: left;
+}
+
+@media (max-width: 767px){
+
+    a.btn_links.newsletter_btn{
+        display: inline-block;
+    }
+
+    .horizon_logo {
+        text-align: center;
+    }
+
+
+}
+
+.top_toggle_calendar_div {
+    margin-bottom: 1%;
+}
+
+.bishop_staff_info strong, .bishop_staff_info h4{
+    font-family: oswald;
+}
+
+.bishop_staff_info p{
+    margin-bottom: 1%;
+}
+
+.staff_email_phone {
+    text-align: left;
+    font-family: librebaskerviller;
+}
+
+.bishop_staff_info {
+    text-align: left;
+}
+
+.bishop_staff_info h4{
+    margin-bottom: 2px;
+}
+
+.bishop_staff_info a{
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.dept_staff .wpb_content_element {
+    margin-bottom: 3px !important;
+}
+
+.vc_custom_heading.resources_heading {
+    width: 68%;
+    font-size: 38px;
+}
+
+.wpb_content_element.resources_content {
+    text-align: left;
+    margin-bottom: 2% !important;
+}
+
+.vc_custom_heading.resources_side_heading {
+    font-size: 16px !important;
+    font-family: worksansm !important;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    margin-bottom: 1%;
+}
+
+.wpb_content_element.resources_content p{
+    font-size: 16px;
+    color: #8d8d8d;
+}
+
+.sidebar_with_dropdown.resourcebar .wpb_column.vc_column_container.vc_col-sm-2 p{
+    font-size: 16px !important;
+}
+
+.resources_breadcrumb{
+    margin-bottom: 4%;
+}
+
+.resources_breadcrumb .custom_breadcrumb, .resources_breadcrumb .custom_breadcrumb a{
+    color: #333;
+    font-family: worksansm;
+    text-transform: uppercase;
+}
+
+.resources_breadcrumb .custom_breadcrumb span.crumb_separate {
+    font-size: 14px;
+    /* font-weight: 600; */
+    font-family: worksansm;
+    font-weight: 500;
+}
+
+a.btn_links.btn_link1.resources_link {
+    border: solid 1px #8d8d8d !important;
+    background-color: rgba(255, 255, 255, 0);
+    color: #575757 !important;
+    letter-spacing: 1px !important;
+    height: 53px !important;
+    font-size: 16px !important;
+    text-align: center !important;
+    line-height: 35px !important;
+    width: 205px;
+    font-family: worksans;
+    line-height: 30px;
+}
+
+.resourcebar .vc_tta-panel.lvca-panel-title {
+    padding: 0px !important;
+}
+
+.resourcebar .vc_tta-panel-title {
+    padding: 6% 0px;
+}
+
+.resourcebar .vc_tta-panel-heading {
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid #707070 !important;
+}
+
+.resourcebar .vc_tta-panel-heading .vc_tta-panel-title a {
+    padding-left: 0px !important;
+}
+
+.resourcebar .vc_tta-panel-heading .vc_tta-panel-title a  i.vc_tta-controls-icon{
+    right: 12px !important;
+}
+
+.resourcebar .vc_tta-panel-title span.vc_tta-title-text {
+    color: #333;
+    font-family: oswaldbold;
+    font-size: 38px;
+}
+
+.resources_divider {
+    border-top: solid 1px #707070;
+}
+
+.resources_links .menu li.menu-item {
+    width: 50%;
+    text-align: left;
+}
+
+.resources_links .menu li.menu-item:before {
+    content: "\f061" !important;
+    font-family: FontAwesome;
+    font-size: 19px !important;
+    color: #575757;
+    -webkit-text-stroke: 2px white !important;
+    -webkit-font-smoothing: antialiased;
+}
+
+.resources_links .menu li.menu-item a {
+    font-size: 20px;
+    font-family: oswald;
+    color: #333;
+    margin:10px 0px;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.resources_links .menu li.menu-item:nth-child(odd) {
+    width: 50%;
+}
+
+.resources_links .menu li.menu-item:nth-child(even) {
+     width: 50%;
+}
+
+.parish_resources_div .resources_links .menu li.menu-item:nth-child(even), .parish_resources_div .resources_links .menu li.menu-item:nth-child(odd){
+     width: 50%;
+}
+
+.vc_tta-panel-body .wpb_widgetised_column li.menu-item{
+    margin-bottom: 2%;
+    float: none;
+    text-align: left;
+}
+
+.vc_tta-panel-body .wpb_widgetised_column li.menu-item a{
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    text-align: left;
+    font-family: librebaskerviller;
+}
+
+.clergy_resource_div .vc_custom_heading.resources_heading {
+    width: 90%;
+}
+
+.resourcebar .vc_tta-panel-title .vc_tta-controls-icon.vc_tta-controls-icon-plus:after{
+    border-width: 0px 0px 20px 1px !important;
+    top: -4px !important;
+    border-color: #707070 !important;
+}
+
+.resourcebar .vc_tta-panel-title .vc_tta-controls-icon.vc_tta-controls-icon-plus:before{
+    border-width: 1px 10px 0px !important;
+    left: -4px !important;
+    border-color: #707070 !important;
+}
+
+span.for_faith_carousel_img{
+    height: 200px !important;
+    display: inline-block;
+    width: 88%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.for_faith_carousel.slick-initialized.slick-slider button.slick-prev.slick-arrow{
+    position: absolute;
+    top: 40%;
+    left: -60px;
+    font-size: 0px;
+    /*background-image: url(/wp-content/uploads/2018/04/faith_left.png);*/
+    background-image: url("../images/faith_left_arrow.png");
+    background-repeat: no-repeat;
+    /* border: none; */
+    background-size: contain !important;
+}
+
+.for_faith_carousel.slick-initialized.slick-slider button.slick-next.slick-arrow{
+    position: absolute;
+    top: 40%;
+    right: -60px;
+    font-size: 0px;
+    /*background-image: url(/wp-content/uploads/2018/04/faith_right.png);*/
+    background-image: url("../images/faith_right_arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain !important;
+}
+
+.for_faith_carousel.slick-initialized.slick-slider button{
+    /*height: 25px !important;
+    width: 17px !important;
+    background-size: 17px 25px !important;*/
+    background-position: center;
+    border: none;
+    height: 45px;
+    width: 30px;
+    background-size: 70px 72px !important;
+}
+
+.for_faith_slider_cont {
+    position: relative;
+}
+
+.faith_carouse_title_div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-family: Oswaldbold;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+    width: 88%;
+    background: rgba(0, 0, 0, 0.31);
+}
+
+
+
+span.faith_carouse_title {
+    /* top: 35%; */
+    top: 35% !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.inspiration_date_btn a.btn_links {
+    border: solid 1px #8d8d8d !important;
+    color: #575757 !important;
+    font-family: worksans;
+    height: 53px !important;
+    font-size: 12px !important;
+    /*padding: 0 !important;*/
+    text-align: center !important;
+    width: auto;
+    line-height: 38px !important;
+}
+
+.all_faiths_cont a.btn_links {
+    letter-spacing: 1px !important;
+    font-size: 12px !important;
+    font-family: worksans;
+    width: auto;
+    line-height: 38px;
+    /*padding: 0 !important;*/
+    height: 53px !important;
+    color: #575757 !important;
+    border: solid 1px #8d8d8d !important;
+}
+
+/*span.faith_carouse_title {
+    position: absolute;
+    left: 0;
+    top: 38%;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-family: Oswaldbold;
+    font-size: 28px;
+    text-align: center;
+    margin: auto;
+}*/
+
+.insp_date_div .faith_active{
+    display: block !important;
+}
+
+.inspiration_slider_div .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+.inspiration_slider_div .faith_slider_cat {
+    font-family: librebaskerviller;
+    font-size: 24px ;
+    line-height: 32px ;
+    font-weight: normal !important;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.inspiration_slider_div h2.wp-post-title.faith_slider_title {
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+.inspiration_slider_div .recentpost-inner-content {
+    top: 35% !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.inspiration_slider_div .recent-post-slider.design-2 .slick-arrow {
+    top: 45% !important;
+}
+
+.inspiration_slider_div .recent-post-slider.design-2 .slick-prev, .inspiration_slider_div .recent-post-slider.design-2 .slick-prev:hover, .inspiration_slider_div .recent-post-slider.design-2 .slick-prev:active{
+    /* right: 31px !important; */
+    right: inherit !important;
+    /*left: auto !important;*/
+    background: rgba(255,255,255,0.7) url(/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/arrow-left.svg) center center no-repeat !important;
+    background-color: transparent !important;
+}
+
+.inspiration_slider_div .recent-post-slider.design-2 .slick-next, .inspiration_slider_div .recent-post-slider.design-2 .slick-next:hover, .inspiration_slider_div .recent-post-slider.design-2 .slick-next:active{
+    /* right: 31px !important; */
+        background: rgba(255,255,255,0.7) url(/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/arrow-right.svg) center center no-repeat !important;
+        background-color: transparent !important;
+}
+
+.inspiration_slider_div .recent-post-slider button.slick-next, .inspiration_slider_div .recent-post-slider button.slick-next:hover, .inspiration_slider_div .recent-post-slider button.slick-next:focus {
+    background: rgba(255,255,255,0.7) url(/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/arrow-right.svg) center center no-repeat !important;
+    background-size: inherit; !important;
+    outline: none !important;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.inspiration_slider_div .recent-post-slider button.slick-prev, .inspiration_slider_div .recent-post-slider button.slick-prev:hover, .inspiration_slider_div .recent-post-slider button.slick-prev:focus {
+    background: rgba(255,255,255,0.7) url(/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/arrow-left.svg) center center no-repeat !important;
+    background-size: inherit; !important;
+    outline: none !important;
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+
+
+.inspiration_slider_div .post-slides{
+    /*height: 485px;*/
+}
+
+.inspiration_slider_div .recent-post-slider.design-2 .post-image-bg {
+     height: 100% !important; 
+}
+
+.inspiration_date_text p{
+    color: #8d8d8d;
+}
+
+.inspiration_slider_div .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0 !important;
+}
+
+.compassionate_div .recent-post-slider.design-4 .wp-post-content a.readmorebtn {
+    width: auto;
+    height: 53px !important;
+    border-color: #8d8d8d !important;
+    /*padding: 0px !important;*/
+    font-family: worksans;
+    line-height: 38px;
+    font-size: 12px !important;
+    color: #575757 !important;
+}
+
+.order_copy_btn a.btn_links.btn_link1 {
+    width: auto;
+    height: 53px !important;
+    /*padding: 0 !important;*/
+    line-height: 38px;
+    font-family: worksans;
+    font-size: 12px !important;
+}
+
+.more_video_btn_div a.btn_links.btn_link1, .latest_post_btn a.btn_links.btn_link1{
+    width: auto;
+    height: 53px !important;
+    /*padding: 0 !important;*/
+    line-height: 38px;
+    font-size: 12px !important;
+    font-family: worksans;
+    letter-spacing: 1px !important;
+}
+
+.church_search_divider {
+    border: solid 1px #cccccc;
+    margin: 7% 0;
+    margin-bottom: 2%;
+}
+
+
+.schurch_params span.input-group-addon {
+    background: #482173 !important;
+    position: unset;
+    margin-left: 2%;
+    width: 42px;
+}
+
+.schurch_params input#church_search::placeholder {
+    font-size: 12px;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    font-family: worksansm;
+}
+
+.input-group.schurch_params.stylish-input-group {
+    width: 64%;
+    float: left;
+}
+
+.find_church_map .stylish-input-group .input-group-addon i{
+    color: #fff;
+}
+
+a.near_me_btn {
+    background: #482173;
+    color: white;
+    height: 42px !important;
+    padding: 0 2%;
+    font-size: 12px;
+    line-height: 40px !important;
+    /* float: none; */
+    display: inline-block;
+    border: 1px solid #4f2d80;
+}
+
+a.near_me_btn:after {
+    content: "\f041" !important;
+    clear: both;
+    display: inline-block;
+    font-size: 18px;
+    /* line-height: 22px; */
+    /* position: absolute; */
+    top: 0px;
+    right: 3px;
+    font-family: FontAwesome;
+    color: white;
+    text-align: center;
+    transition: 0.6s;
+}
+
+a.near_me_btn:hover, a.near_me_btn:focus {
+    color: #4f2d80 !important;
+    background-color: white;
+    border: 1px solid #4f2d80 !important;
+}
+
+a.near_me_btn:hover::after {
+    color: #4f2d80 !important;
+}
+
+span.orspan {
+    font-family: worksansm;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.chr_detail_container{
+    padding: 4%;
+}
+
+.chr_detail_title {
+    font-size: 37px;
+    font-family: oswaldbold;
+}
+
+.chr_detail_phone {
+    margin-top: 3%;
+    font-family: worksansbold;
+    color: #333333;
+}
+
+.chr_detail_address {
+    font-family: worksans;
+    color: #333333;
+}
+
+.chr_detail_website a{
+    color: #333333;
+    text-decoration: underline;
+    font-weight:800;
+    font-size:14px!important;
+}
+
+.chr_detail_divider {
+    border-top: solid 1px #cccccc;
+    margin: 3% 0;
+}
+
+.stime_ministries_col {
+    width: 50%;
+    float: left;
+}
+
+.service_time_ministries {
+    padding: 4%;
+}
+.stime_ministries_title {
+    font-family: worksansbold;
+}
+.stime_li{
+    float: none;
+}
+.stime_li a.ui-all {
+    margin: 0;
+    font-size: 16px;
+    color: #333333 !important;
+    font-family: worksans;
+}
+
+.chr_detail_slider_div {
+    padding: 4%;
+}
+
+.chr_detail_carousel i {
+    border-radius: 66%;
+    border: 1px solid #8d8d8d;
+    font-size: 24px;
+    height: 34px;
+    width: 34px;
+    color: #8d8d8d;
+    -webkit-text-stroke: 2px white !important;
+    text-align: center;
+    vertical-align: middle;
+    line-height:30px;
+    position:absolute;
+    top:37%;
+    cursor:pointer;
+}
+
+
+.chr_detail_carousel i:first-of-type {
+    left:0;
+}
+.chr_detail_carousel i:nth-of-type(2) {
+    right:0;
+}
+
+@media (min-width:320px) and (max-width:414px) {
+    .chr_detail_carousel i {
+        display:none;
+    }
+}
+
+.chr_detail_carousel .slick-list {
+    width:75%;
+    margin:0 auto;
+}
+
+@media (min-width:320px) and (max-width:414px) {
+    .chr_detail_carousel .slick-list {
+        width:100%;
+    }
+}
+
+/*.chr_detail_slider_div button.slick-prev.slick-arrow, .chr_detail_slider_div button.slick-next.slick-arrow{*/
+    /*display: none !important;*/
+/*}*/
+
+.chr_detail_slider_div ul.slick-dots {
+    display: block !important;
+}
+
+.church_srch_result_detail{
+    overflow: auto;
+    height: 600px;
+}
+
+.google_reviews_cont {
+    padding: 4%;
+}
+
+img.author_img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+.auth_cont {
+    float: left;
+}
+
+.author_name_div {
+    font-family: worksansbold;
+}
+
+.rating_time_div.auth_cont {
+    padding: 0 5px;
+    color: #8d8d8d;
+}
+
+.rating_comment {
+    font-family: worksans;
+}
+
+.author_details.auth_cont {
+    padding: 0 3%;
+    /* padding-top: 0; */
+}
+
+span.fa.fa-star.checked {
+    color: #ff7c00;
+}
+
+.more_auth_review_btn {
+    text-align: center;
+}
+a.auth_url_link {
+    color: #333;
+}
+
+.banner_minister_head {
+    line-height: 34px !important;
+    font-family: librebaskerviller !important;
+    letter-spacing: 1px;
+}
+.banner_minister_sub_head {
+    letter-spacing: 1px;
+}
+
+.ministries_single_page h2.vc_custom_heading.sidebar_heading {
+    font-size: 16px;
+    text-align: left !important;
+    margin-left: 0 !important;
+    text-transform: uppercase;
+    font-family: worksans !IMPORTANT;
+}
+
+.ministries_single_page .sidebar_menu_links ul li a {
+    color: #8d8d8d;
+}
+
+.ministries_single_page .sidebar_menu_links ul li.current-menu-item a{
+    color: #333;
+}
+
+.ministries_single_page .content_heading {
+    font-size: 45px;
+}
+
+.ministries_single_page .wpb_wrapper p {
+    font-size: 16px !important;
+    color: #8d8d8d !important;
+}
+
+.ministries_single_page .wpb_column.vc_column_container.vc_col-sm-6 {
+    border: 1px solid #8d8d8d;
+}

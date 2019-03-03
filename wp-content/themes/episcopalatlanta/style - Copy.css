@@ -1,0 +1,2382 @@
+/*
+Theme Name: Episcopalatlanta
+Theme URI: https://wordpress.org/themes/
+Author: Episcopalatlanta
+Author URI: https://www.episcopalatlanta.org
+Description: Design of custom requirement using visual composer
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: church 
+Text Domain: episcopalatlanta
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@font-face { font-family: 'montserrat'; src: url(fonts/Montserrat-Regular.otf); }
+@font-face { font-family: 'montserratbold'; src: url(fonts/Montserrat-Bold.otf); }
+@font-face { font-family: 'librebaskervilleitalic'; src: url(fonts/LibreBaskerville-Italic.otf); }
+@font-face { font-family: 'librebaskerviller'; src: url(fonts/LibreBaskerville-Regular.ttf); }
+@font-face { font-family: 'librebaskervilleb'; src: url(fonts/LibreBaskerville-Bold.ttf); }
+
+@font-face { font-family: 'oswaldbold'; src: url(fonts/Oswald-Bold.ttf); }
+@font-face { font-family: 'oswald'; src: url(fonts/Oswald-Regular.ttf); }
+.mreg{
+    font-family: 'montserratbold';
+}
+
+#episcopalatlanta_menu {
+    float: right;
+}
+
+.search-container{
+    /*width: 152px;*/
+        width: 198px;
+    display: inline-block;
+}
+
+input#church-search-bar {
+    margin: 0 auto;
+    width: 100%;
+    line-height: 25px;
+    padding: 0 17px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    background-color: #8080808f;
+    border-radius: 5px;
+
+    &:focus{
+        border: 1px solid #008ABF;
+        transition: 0.35s ease;
+        color: #008ABF;
+        &::-webkit-input-placeholder{
+            transition: opacity 0.45s ease; 
+            opacity: 0;
+        }
+        &::-moz-placeholder {
+            transition: opacity 0.45s ease; 
+            opacity: 0;
+        }
+        &:-ms-placeholder {
+            transition: opacity 0.45s ease; 
+            opacity: 0;
+        }    
+    }
+}
+
+.search-icon {
+    position: relative;
+    float: right;
+    width: 60px;
+    height: 55px;
+    top: -41px;
+    right: -14px;
+}
+
+input#search-bar {
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #e6e2e2;
+    padding: 2px;
+    background-color: #eee;
+}
+
+input#search-bar::placeholder {
+    color: #504d4d;
+}
+
+.btn_find_church {
+    background-color: #4f2d80;
+    color: white;
+    padding: 0 16px;
+    font-size: 14px !important;
+    line-height: 26px;
+    border-radius: 5px;
+    border: none;
+}
+
+.find_church_btn_container {
+    display: inline-block;
+    float: right;
+    width: 155px;
+    margin-right: 6px;
+    margin-left: 4px;
+}
+
+#episcopalatlanta_menu {
+    float: right;
+    margin-top: -5%;
+    margin-left: 14%;
+}
+#episcopalatlanta_logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.header_buttons_container {   
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 19px;
+    float: right;
+}
+
+.header_logo {
+       width: 330px;
+    /* height: 120px; */
+    position: absolute;
+    z-index: 99;
+}
+
+.footer_section.row {
+    margin: 0 auto;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.footer_section {
+    width: 100%;
+    /*height: 430px;*/
+    /*background-image: url("images/black_background.png");*/
+    background: #37363a;
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+    position: relative;
+    top:150%;
+    padding: 22px;
+}
+
+.home_content {
+    /*height: 430px;*/
+    /*margin-top: 113px;*/
+}
+
+.extra_links{
+    color:#b3b3b3;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.other_links {
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer_part1 .sub_cont{
+    padding-left: 26%;
+}
+
+.footer_part1_title{
+    padding-top: 5%;
+    font-size: 147%;
+    color: #fff;
+}
+.footer_part1_desc{
+    color:#b3b3b3;
+    font-size: 15px;
+}
+
+.footer_part1 {
+    width: 25%;
+    float: left;
+    border-right: 2px solid #616060;
+}
+
+.footer_part2 {
+    width: 25%;
+    float: left;
+    padding: 3%;
+    border-right: 2px solid #616060;
+}
+
+.other_link_container {
+    float: left;
+    padding-left: 25px;
+}
+
+.extra_link_container {
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 25px;
+}
+
+.other_link_title {
+    margin-bottom: 10%;
+}
+
+.extra_link_title {
+    margin-bottom: 17%;
+}
+
+.social-media-container a{
+    color: white;
+}
+
+.horizon_logo img{
+    width: 260px;
+}
+
+.footer_part3 {
+    width: 12%;
+    color: white;
+    float: left;
+    border-right: 2px solid #616060;
+    padding: 2%;
+}
+
+.footer_part4 {
+    width: 25%;
+    color: white;
+    float: left;
+    padding: 3%;
+}
+
+.desc{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+.dropdown, .dropup {
+    position: inherit!important;
+}
+
+.copyright {
+    width: 50%;
+    float: left;
+    /* display: inline-block; */
+    margin-top: 1%;
+     margin-left: 5%; 
+}
+
+.footer-menu-container{
+    margin-right: 5%;
+}
+
+.link{
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+
+.follow_us_container .social{
+    margin-top: 20px;
+}
+
+.follow_us_container .link_text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+a:hover, a:focus {
+    color: #401b77 !important;
+    text-decoration: none !important;
+}
+
+.social a {
+    color: #b3b3b3;
+}
+
+
+.footer_part3 .title{
+    margin-left: 9%;
+}
+
+.footer_part3 .title, .footer_part4 .title{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;    
+}
+
+.footer_part4 .desc{
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+.footer_part4 .sub_cont{
+    margin-left: 9%;
+    width: 87%;
+}
+
+.footer_part4 input.btn_email {
+    background: #2b2a2d;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    line-height: 45px;
+    padding-left: 15px;
+    width: 58%;
+}
+
+.footer_part4 .input_email {
+    margin-bottom: 7%;
+}
+
+.footer_part4 .input_email .btn{
+    background: #582c9a;
+    color: #fff;
+    line-height: 29px;
+    margin-left: -4px;
+    vertical-align: unset;
+}
+
+.footer_part1, .footer_part2, .footer_part3, .footer_part4 {
+    padding-top: 12px;
+    /*padding-bottom: 12px;*/
+}
+
+
+.footer_section {
+    background-image: url(http://magentoshopify.com/projects/episcopalatlanta/wp-content/uploads/2018/02/footer_bg_logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
+.recent-post-slider .slick-dots {
+    display: block !important;
+}
+.recent-post-slider .slick-dots li{
+	float: none !important;
+}
+.wpsisac-slick-slider.design-2 .slick-image-slide .slide-wrap .slider-overlay{
+    background: none !important;
+}
+.recent-post-slider.design-4 .post-list-content .wp-medium-7{
+	text-align: left;
+}
+
+.slider_title{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.slider_cont p{
+    font-size: 30px !important;
+    font-weight: 200 !important;
+     text-shadow: none !important; 
+}
+
+.after_slider_div, .separater_div, .counties_members_div, .qoute_div{
+    text-align: center;
+}
+
+
+
+.serparater {
+    width: 9%;
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.after_slider_logo {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.after_slider_logo img{
+    height: 52px;
+    width: 26px;
+}
+
+.separater_div {
+    margin-top: 4%;
+    margin-bottom: 5% !important;
+}
+
+.cc_content .fletter {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.quote_content {
+    padding-top: 4%;
+    background: #dadada4d;
+    padding-bottom: 4%;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.vc_row {
+    text-align: center;
+}
+
+a.btn_links {
+    border: 1px solid;
+    padding: 7px 48px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.worship_cont {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 8%;
+}
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      .btn_links.btn_link1 {
+    cursor: pointer;
+}
+
+.youth-box-wrap.wpb_row .vc_col-sm-2 {
+    /*float: left;*/
+    width: 18.8%;
+    padding: 0;
+    margin-right: 1.5%;
+    min-height: 0;
+    border-right: 2px solid #b3b3b3;
+}
+
+.youth-box-wrap .youth-box-last {
+    margin: 0 !important;
+    border: none !important;
+}
+
+.wpb_row.youth-box-wrap {
+    display: inline-block;
+    width: 1140px;
+    max-width: 100%;
+}
+
+.youth-box-wrap .col_cont {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.youth-box-wrap .wpb_column {
+    cursor: pointer;
+}
+
+.youth_active {
+    color: #808080c2;
+}
+
+.col_title {
+    margin-bottom: .5rem;
+    font-family: librebaskervilleitalic !important;
+}
+
+ul.slid li a {
+    text-transform: uppercase;
+}
+
+/*.vc_row {
+     margin-left: 0 !important; 
+     margin-right: 0 !important; 
+}
+*/
+/*.vc_column_container>.vc_column-inner{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}*/
+
+
+.youth_active::before {
+    content: "\f0d8";
+    font-family: FontAwesome;
+    left: -13%;
+    position: absolute;
+    top: -62px;
+    font-size: 30px;
+    right: 0;
+    color: #fff;
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 45px !important;
+}
+
+.slider_involve {
+    margin: 0 !important;
+}
+.slider_involve .vc_column-inner {
+    padding: 0 !important;
+}
+.slider_involve .wpsisac-slick-slider.design-2 .slick-prev {
+    left: 10px !important;
+}
+.slider_involve .wpsisac-slick-slider.design-2 .slick-next {
+    right: 10px !important;
+}
+
+
+.slider_involve .wpb_text_column.wpb_content_element {
+    margin-bottom: 0 !important;
+}
+.wpb_row.youth-box-wrap {
+    padding: 15px 0;
+}
+
+/*deepen inspiration page*/
+
+.vc_custom_1518605353165 {
+    background-size: cover;
+    height: 500px;
+}
+
+.faith_power_text, .faith_power_title{
+    color: #fff;
+}
+
+.faith_power_title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.faith_power_text {
+    margin-top: 12%;
+    margin-bottom: 2px !important;
+        font-size: 30px;
+    font-family: cursive;
+    text-indent: -2%;
+}
+
+.inspiration_col .vc_column-inner{
+    background-size: cover;
+    height: 200px;
+}
+
+.inspiration_col.vc_column_container {
+    padding: 15px 5px;
+}
+
+.inspiration_video_div {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intagram_feeds_div {
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.youth-box-wrap {
+    min-height: 115px !important;
+}
+.youth-box-wrap .wpb_column {   
+    min-height: 100px !important;
+}
+
+.inspiration_date_title{
+    font-family: sans-serif !important;
+}
+
+.all_faiths_cont .btn_div {
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.all_faiths_cont, .insp_date_div, .inspiration_video_div{
+    background: #8a7f7f26;
+}
+
+.insp_date_div {
+    padding-bottom: 4%;
+}
+
+.insp_date_div .btn_div {
+    margin-top: 4%;
+}
+
+.pathway_image .vc_column-inner {
+    height: 120px;
+}
+
+.pathway_image {
+    padding: 20px !important;
+}
+
+.pathway_text {
+    color: #fff;
+    font-family: cursive !important;
+    font-size: 28px;
+    font-weight: 300 !important;
+}
+.pathway_title{
+    font-weight: 600 !important;
+    font-family: montserratbold !important;
+}
+
+.order_copy_btn .btn_div{
+    margin-top: 7%; 
+}
+
+.order_copy_btn a.btn_links {
+    border: 1px solid #fff;
+    padding: 7px 27px;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.pathway_compassionate_div {
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.insta_title{
+    font-family: librebaskervilleitalic !important;
+    color: #5d5b5b !important;
+    font-size: 24px;
+}
+
+.latest_post_btn a.btn_links, .all_faiths_cont a.btn_links, .inspiration_date_btn a.btn_links{
+    letter-spacing: 2px;
+}
+
+/* added by Gaurav Daxini */
+#video-list{
+	    background: #6d6a6a;
+    max-height: 400px;
+    overflow: auto;
+}
+#video-list .wpb_video_heading{
+	font-size: 16px
+}
+
+/*find a church*/
+.find_church_heading {
+    background: #8a7f7f26;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+    font-size: 36px;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+}
+
+.find_church_sub_head {
+    padding: 2% 0;
+    margin-bottom: 0 !important;
+}
+
+.find_church_sub_head:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    left: 0%;
+    position: absolute;
+    bottom: -50%;
+    font-size: 149px;
+    right: 0;
+    color: #482173;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.church_search_div #imaginary_container {
+    /*margin-top: 20%;*/
+    width: 90%;
+}
+.church_map_div {
+    padding-right: 0 !important;
+}
+
+.church_map_search{
+    height: 750px;
+}
+
+
+.church_search_div .stylish-input-group .input-group-addon{
+    background: #8a7f7f26;
+    border: none; 
+    padding: 0;
+}
+.church_search_div .stylish-input-group .form-control{
+    border-right:0; 
+    box-shadow:0 0 0; 
+    border-color:#ccc;
+}
+.church_search_div .stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.church_search_div {
+    border-left: 2px solid #8a7f7f26;
+    margin-top: 1%;
+    z-index: 3;
+}
+
+.church_img{
+    display: inline-block;
+    float: left;
+}
+
+.srch_title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.church_img img {
+    width: 100px;
+    height: 85px;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.church_title {
+    margin-bottom: 1%;
+    font-size: 14px;
+}
+
+.church_addr {
+    display: inline-block;
+    width: 59%;
+    font-size: 12px !important;
+    vertical-align: top;
+}
+
+.chr_cat {
+    display: inline-block;
+}
+
+.chr_cat span {
+    border: 1px solid;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.church_description {
+    display: inline-block;
+    font-size: 10px;
+    width: 68%;
+}
+
+.church_content {
+color: #787272;
+}
+
+.church_filter_sort {
+    margin-top: 3%;
+    margin-left: 10px;
+    margin-bottom: 4%;
+}
+
+.church_list_container:hover {
+    border-left: 5px solid #4d307d;
+    background: #8a7f7f26;
+}
+
+.clearfloat{
+    clear: both;
+}
+
+.church_cat_div {
+    float: left;
+    margin-right: 20px;
+}
+
+input#church_search {
+    border: none;
+    background: #8a7f7f26;
+    border-radius: 0;
+}
+
+
+select#church_category {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #b5aeae;
+    /* text-decoration: underline; */
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 0;
+    color: #b5aeae;
+}
+
+
+.sort_near a {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #b5aeae;
+    /* text-decoration: underline; */
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 0;
+    color: #b5aeae;
+    padding-bottom: 6px;
+    /* line-height: 30px; */
+}
+
+.footer_section.row {
+    z-index: 4;
+}
+
+.custom_loader{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    margin-left: 38%;
+    margin-top: 30%;
+}
+
+.church_result_container {
+    height: 750px;
+}
+
+.church_srch_result {
+    overflow: auto;
+    height: 600px;
+}
+
+button.vl_btn {
+    background: white;
+    padding: 10px 30px;
+    border: 2px solid purple;
+    border-radius: 30px;
+    color: purple;
+    float: left;
+}
+
+section#volunteers_section {
+    max-width: 1098px;
+    margin: 0 auto;
+}
+
+.volunteers-slider .recent-post-slider .slick-dots {
+    width: max-content !important;
+    text-align: center !important;
+    position: relative;
+    float: none !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    clear: both !important;
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 10px 15px!important;
+    vertical-align: middle !important;
+    line-height: 14px;
+    margin-top: 20px !important;
+    width: -moz-max-content !important;
+}
+
+.vc_custom_1518762214822 {
+    float: left;
+    width: 100%;
+}
+
+button.vl_btn{
+letter-spacing: 1px;
+margin-top: 25px;
+}
+
+.volunteers-slider .wp-medium-5.wpcolumns {
+    width: 75%;
+}
+
+.volunteers-slider .wp-medium-7.wpcolumns {
+    width: 25%;
+    background: white;
+}
+
+a.readmorebtn {
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 30px !important;
+    letter-spacing: 1px;
+}
+
+.volunteers-slider .recent-post-slider.design-4 .post-image-bg {
+    height: auto !important;
+}.find_location_sub_head:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    left: 0%;
+    position: absolute;
+    bottom: -50%;
+    font-size: 149px;
+    right: 0;
+    color: #4d307d;
+    z-index: 1;
+    pointer-events: none;
+}
+.find_location_sub_head{
+ padding: 2% 0;
+ margin-bottom: 0 !important;
+}
+
+.find_location_sub_head:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    left: 0%;
+    position: absolute;
+    bottom: -70%;
+    font-size: 149px;
+    right: 0;
+    color: #4d307d;
+    z-index: 1;
+    pointer-events: none;
+}
+.find_location_sub_head{
+ padding: 2% 0;
+ margin-bottom: 0 !important;
+}
+
+/*development classes*/
+
+.custom_cont_form .custom_left {
+    float: left;
+    display: inline-block;
+}
+
+.custom_cont_form .custom_field {
+    display: inline-block;
+    text-align: left;
+}
+
+
+.custom_cont_form .wpcf7-form-control {
+    border: 1px solid #99999926;
+    border-radius: 2px;
+    color: #333;
+    background: #d4d4d46e;
+    font-size: 17px;
+    height: 47px;
+    letter-spacing: 0.5px;
+    float: left;
+}
+
+input#cust_send_msg {
+    color: #fff;
+    background: #4f2d80;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 32px;
+    border-radius: 27px;
+    display: inline-block;
+    padding-right: 26px;
+    padding-left: 26px;
+}
+
+/*featured location*/
+.quote_heading{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    margin-bottom: 1px;
+    font-weight: 600 !important;
+    font-family: inherit !important;
+}
+
+.quote_content {
+    padding-left: 10%;
+    font-size: 28px;
+    padding-right: 10%;
+    font-style: italic;
+    padding-top: 1%;
+    margin-bottom: 0 !important;
+    padding-bottom: 1%;
+    font-weight: 400;
+    color: grey;
+}
+
+.quote_by {
+    color: #808080a1;
+    font-size: 11px;
+    padding-bottom: 1%;
+}
+
+.quote_container{
+	padding-top: 1%;
+    padding-bottom: 3%;
+}
+
+.find_feature_location:before {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    left: 0%;
+    position: absolute;
+    bottom: -64%;
+    font-size: 90px;
+    right: 0;
+    color: #4d307d;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.feature_location_slider .slide-title {
+    font-size: 36px !important;
+    font-weight: 800 !important;
+	
+}
+
+.feature_location_slider .slick-slider-short-content p {
+    font-weight: 100 !important;
+}
+
+.feature_location_slider .slick-slider-short-content {
+    padding-bottom: 2%;
+}
+
+
+.feature_location_slider a.slider-readmore {
+    background: transparent !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 13px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border-radius: 30px !important;
+    border: 1px solid #fff !important;
+}
+
+.row.church_map_search.feature_location {
+    height: 400px;
+}
+
+.chrch_phn{
+	float: left;
+}
+
+a.chrch_redirect {
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.content_divide {
+    display: inline-block;
+    width: 49%;
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+.feature_location_slider {
+    margin: 0 !important;
+}
+.feature_location_slider .vc_column-inner {
+    padding: 0 !important;
+}
+.feature_location_slider .wpsisac-slick-slider.design-2 .slick-prev {
+    left: 10px !important;
+}
+.feature_location_slider .wpsisac-slick-slider.design-2 .slick-next {
+    right: 10px !important;
+}
+
+
+.feature_location_slider .wpb_text_column.wpb_content_element {
+    margin-bottom: 0 !important;
+}
+
+.our_purpose_div.with_background{
+	background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    height: 400px;
+}
+
+.our_purpose_heading {
+    margin-top: 9%;
+    font-family: inherit !important;
+    font-weight: 1000 !important;
+    font-size: 42px;
+}
+
+.our_purpose_text {
+    /* width: 70%; */
+    padding-left: 16%;
+    padding-right: 16%;
+    color: #fff;
+}
+
+.our_purpose_div.mid_section {
+    height: 400px;
+}
+
+.our_purpose_div.mid_section .our_purpose_text {
+    color: #333;
+}
+
+/*our staff*/
+
+.our_staff_banner{
+    background-position: center;
+    height: 380px;
+    background-size: cover;
+}
+
+
+.staff_images .vc_column-inner {
+    background-color: #969696 !important;
+    height: 204px;
+    width: 204px !important;
+    border-radius: 100px;
+    margin-left: 22% !important;
+}
+
+.staff_text {
+    text-align: left;
+    color: #5e5d5d;
+     margin-top: 4%;
+    margin-bottom: 3% !important;
+}
+
+.staff_heading{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+}
+
+.staff_learn_more a.btn_links.btn_link1 {
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #80808085;
+}
+.staff_detail_div {
+    margin-bottom: 3%;
+}
+
+a.staff_links {
+    font-weight: 600;
+    font-size: 22px;
+    color: #333333c9 !important;
+}
+
+a.staff_links:hover {
+    color: #401b77 !important
+}
+
+/*FAQ*/
+.faq_top_heading{
+    font-family: inherit !important;
+    font-weight: 600 !important;
+}
+
+.faq_top_text {
+    color: grey;
+    font-size: 19px;
+}
+
+.faq_top_div{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.faq_category_heading_div {
+    margin-top: 4%;
+}
+
+.faq_title_small{
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    letter-spacing: 1px;
+}
+
+.faq_title_large{
+    font-family: inherit !important;
+    font-weight: 900 !important;
+    font-size: 34px !important;
+}
+
+.faq_accordian_div .lvca-panel-title {
+    color: #333 !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    letter-spacing: 2px !important;
+}
+
+.faq_accordian_div .lvca-panel{
+	border-bottom: 0 !important;
+	margin-top: 0 !important
+	width: 87%;
+}
+
+.faq_accordian_div .lvca-panel:last-child{
+	border-bottom: 1px solid #eee !important;
+}
+
+.faq_accordian_div .lvca-panel:first-child{
+	margin-top: 20px !important
+}
+
+.faq_accordian_div {
+    margin-bottom: 2%;
+}
+
+.faq_accordian_div:last-child{
+    margin-bottom: 8%;
+}
+
+.faq_accordian_div .lvca-panel-content ul{
+	float: left;
+	margin: -15px;
+    padding: inherit;
+    overflow: hidden;
+    list-style: inherit;
+}
+
+.faq_accordian_div .lvca-panel-content {
+    color: grey;
+}
+
+.faq_accordian_div .lvca-panel-content ul li{
+	list-style-type: dots;
+	float: none;
+}
+
+.faq_accordian_div .lvca-panel-content{
+	padding-top: 0 !important;
+}
+
+.faq_accordian_div .lvca-panel-title {
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+    padding-left: 5px !important;
+}
+
+ .faq_accordian_div .lvca-accordion.lvca-style1 .lvca-panel .lvca-panel-title:after, .faq_accordian_div .lvca-accordion.lvca-style3 .lvca-panel .lvca-panel-title:after{
+    right: 11px;
+    top: 21px;
+    font-size: 10px;
+    color: grey;
+ }
+
+ /*feature blog*/
+img.post_feature_img {
+    /* width: 88%; */
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.author_details img {
+    height: 55px;
+    border-radius: 40px;
+}
+
+.single_feature_post_div .wp-medium-7.wpcolumns {
+    text-align: left;
+    padding-left: 37px;
+    padding-right: 32px;
+}
+
+.single_feature_post_div .post_feature_title {
+    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+
+.single_feature_post_div .post_feature_text {
+    color: grey;
+    margin-bottom: 4%;
+}
+
+.single_feature_post_div .pf_author_img {
+    float: left;
+    margin-right: 20px;
+}
+
+.single_feature_post_div .pf_right {
+    display: inline-block;
+}
+
+.single_feature_post_div .pf_author_name {
+    font-style: italic;
+}
+
+.single_feature_post_div .pf_date_cat {
+    color: grey;
+    font-size: 15px;
+}
+
+.single_feature_post_div span.post_cat_name {
+    color: #4d307d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+img.fp_grid_img {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+}
+
+.fp_grid_title {
+    
+    font-weight: 600;
+}
+
+.wp-medium-3.wpcolumns.fp_grid_colums{
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+}
+
+.fp_cat {
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+.fp_cat span {
+    color: #fff;
+    background: #4d307d;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4px;
+    letter-spacing: 1px;
+}
+
+.featured_blogs_div {
+    background: #8a7f7f26;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.featured_blog_heading{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+        margin-bottom: 3%;
+}
+
+.featured_blogs_div a.btn_links.btn_link1 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    border: 1px solid #80808087;
+    margin-top: 2%;
+}
+
+.fp_grid_bottom {
+    background: #fff;
+    padding: 20px;
+    text-align: left;
+}
+
+.fp_grid_title_div {
+    text-align: left;
+}
+
+.feature_post_grid_cont .post_feature_text {
+    color: grey;
+    margin-top: 2%;
+    font-size: 14px;
+}
+
+.fp_view_profile a.btn_links.btn_link1 {
+    border: none;
+    padding: 0;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 17px;
+    color: grey;
+}
+
+
+.annual_magzine_div .order_copy_btn a.btn_links {
+    border: 1px solid #fff;
+    padding: 7px 27px;
+    font-size: 14px;
+    display: inline-block;
+    color: #fff !important;
+    font-weight: 500;
+    border-radius: 28px;
+    margin-top: 12%;
+}
+
+.annual_mag_center .pathway_text {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.annual_mag_center .pathway_title {
+    font-size: 26px;
+    margin-top: 7%;
+}
+
+.annual_mag_center .vc_column-inner {
+    padding-top: 0 !important;
+}
+
+.volunteers-slider.annual-mag-slider {
+    background: #eeeded;
+    padding-top: 3%;
+}
+
+.annual_magazine_title{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+    margin-bottom: 3%;
+}
+
+.post-list.on_hover{
+	display: none;
+}
+
+/*.wp-medium-3.wpcolumns.fp_grid_colums.on_hover{
+    background: #4d307d;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 6px;
+}*/
+
+/*.fp_grid_onhover{
+	background: #4d307d;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    border-radius: 6px;
+    display: none;
+}
+*/
+.fp_grid_onhover {
+    background: #4d307d;
+    color: #fff;
+    padding-top: 9% !important;
+    padding-bottom: 3%;
+    border-radius: 6px;
+    display: none;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;    
+    padding: 0;
+    transition: all .5s ease;
+}
+.fp_grid_colums:hover .fp_grid_onhover {
+    display: block;
+    transition: all .5s ease;
+}
+
+.pf_grid_text_hover {
+    color: #bebaba;
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 9%;
+}
+
+.fp_grid_title_hover {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 27px;
+    margin-bottom: 5%;
+}
+
+.fp_grid_cat_hover span {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.fp_grid_cat_hover {
+    margin-bottom: 6%;
+}
+
+.feature_video_heading{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+    margin-bottom: 3%;
+}
+
+.inspiration_video_div.feat_blog{
+    padding-top: 0%;
+}
+
+/*Life at Episco*/
+
+.life_at_slider_cont {
+    margin-bottom: 0 !important;
+}
+
+.life_at_heading, .place_belong_heading{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+    margin-bottom: 3%;
+}
+
+.life_at_grid_div a.btn_links.btn_link1, .place_belong_div a.btn_links.btn_link1{
+	font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    border: 1px solid #80808087;
+    margin-top: 2%;
+}
+
+.place_belong_div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.place_belong_text {
+    color: grey;
+    font-family: initial;
+    font-size: 20px;
+}
+
+.meet_bishop_div{
+	background-position: center !important;
+    background-size: cover;
+    height: 400px;
+}
+
+
+.meet_staff_btn a.btn_links.btn_link1 {
+    border: 1px solid #fff;
+    font-size: 11px;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 2%;
+}
+
+.meet_bishop_title{
+	font-family: inherit !important;
+    font-weight: 900 !important;
+    font-size: 43px;
+    margin-top: 9%;
+}
+
+.meet_bishop_content {
+    color: #fff;
+    font-family: initial;
+    width: 63%;
+}
+
+.life_at_slider_cont h2.slide-title {
+    font-size: 46px !important;
+    /* width: 50%; */
+    font-weight: 900;
+    line-height: 49px !important;
+}
+
+.life_at_slider_cont .slider-content {
+    width: 50% !important;
+}
+
+.life_at_slider_cont .slick-slider-short-content p {
+    font-size: 23px !important;
+    font-weight: 400 !important;
+    line-height: 30px;
+    margin-top: 2%;
+}
+
+.life_at_slider_cont .slider-overlay{
+	background: rgba(0,0,0,0.4) !important;
+}
+
+.cust_top_banner_div{
+	background-position: center !important;
+	background-size: cover;
+	height: 400px;
+}
+
+.cust_banner_title{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+    font-size: 50px;
+    margin-top: 9%;
+}
+
+/*hunger walk*/
+.hw_heading {
+    margin-top: 0;
+}
+
+.hide_class{
+	display: none;
+}
+
+/*sidebar*/
+.sidebar_left_cont .vc_column-inner {
+    padding: 25% 3% !important;
+}
+
+.sidebar_heading{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+    margin-left: 12%;
+    margin-bottom: 8%;
+}
+
+.sidebar_menu_links{
+	margin-left: 12%;
+}
+
+.sidebar_menu_links ul{
+	width: 86%;
+}
+
+.sidebar_menu_links li a {
+    font-weight: 600;
+    padding: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: left;
+}
+
+.sidebar_sep_div{
+    margin-bottom: 2px;
+}
+
+.sidebar_sep_div .vc_icon_element-icon {
+    color: #4d307d !important;
+}
+
+.find_community_link {
+	font-family: inherit !important;
+}
+
+.find_community_link a{
+	font-family: inherit !important;
+    font-weight: 600 !important;
+}
+
+.it_mean_text {
+    font-family: initial !important;
+}
+
+.it_mean_div{
+    padding-bottom: 3%;
+    background: #e5e5e58c !important
+}
+
+.sidebar_with_dropdown{
+    padding-top: 5%;
+}
+
+.sidebar_with_dropdown .lvca-panel {
+    margin-top: 0 !important;
+    border-bottom: none !important;
+}
+
+.sidebar_with_dropdown .lvca-panel:last-child{
+    border-bottom: 1px solid #eee !important;
+}
+
+.sidebar_with_dropdown .lvca-panel:first-child{
+    border-top: none !important;
+}
+
+.sidebar_with_dropdown .lvca-panel-title{
+    padding-left: 0px;
+}
+
+h2.slide-title
+{
+    font-family:oswaldbold;
+    font-size: 60px !important;
+    line-height: 65px !important;
+}
+.slider_title
+{
+   font-family: librebaskerviller;
+    font-size: 24px;
+    line-height: 32px !important;
+    font-weight: normal;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+ul.slick-dots {
+    display: none !important;
+}
+button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+    background-color: transparent !important;
+    /* color: #fff !important; */
+}
+.after_slider_content {
+    font-size: 20px;
+    font-family: librebaskerviller;
+    width: 32%;
+    display: inline-block;
+}
+.vc_single_image-wrapper.vc_box_border_grey img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 125px;
+}
+.vc_single_image-wrapper.vc_box_border_grey img {
+    height:  auto;
+    width:  auto;
+    max-width:  100%;
+    max-height: 70px;
+}
+.wpb_single_image
+{
+    height: 70px;
+}
+
+.wpb_wrapper p strong {
+    font-family: oswaldbold;
+    font-size: 20px;
+    margin-right:  5px;
+}
+
+.wpb_wrapper p {
+    font-size:  22px;
+    font-family: librebaskerviller;
+}
+.wpb_wrapper .quote_content {
+   background: transparent !important;
+    padding-top: 45px;
+    font-size: 27px;
+    font-family:librebaskerviller;
+    font-weight: normal;
+    color: black;
+    font-style: normal;
+}
+.wpb_single_image.wpb_content_element.vc_align_center.wpb_animate_when_almost_visible.wpb_fadeIn.fadeIn.wpb_start_animation {
+    margin-bottom: 20px !important;
+}
+.worship_cont strong {
+    font-family:librebaskerviller;
+}
+.btn_div a {
+    font-family: montserrat;
+}
+.wpb_wrapper h2 {
+    font-family: oswaldbold;
+}
+.footer_part1_title h5 {
+    font-family: oswald;
+    font-weight:  normal;
+    line-height: 26px;
+}
+.bg-grey {
+    background: #dadada4d;
+    margin-bottom: 45px;
+}
+.meet-our-bishop .demo-container .vc_column-inner > .wpb_wrapper {
+    width: 50%;
+    text-align:  left;
+    margin: 50px 0px 85px;
+}
+.meet-our-bishop .wpb_wrapper p strong
+{
+        font-size: 33px;
+        margin-top: 30px;
+}
+.meet-our-bishop .wpb_wrapper p {
+    font-size: 16px
+ }
+ .meet-our-bishop .wpb_text_column {
+    margin-bottom: 10px !important;
+}
+.meet_btn {
+    margin-top: 20px !important;
+}
+.demo-container
+    {
+        /*width: 1140px !important;*/
+        margin: 0px auto !important;
+        text-align: center !important;
+        max-width: 100%;
+        float: none !important;
+    }
+    #map .image-section {
+    height: 165px !important;
+    position:  relative;
+}
+
+#map .image-section img {
+    height:  auto;
+    width:  auto;
+    max-width:  100%;
+    max-height: 130px;
+    position:  absolute;
+    margin: auto !important;
+    /* text-align:  center; */
+    /* display:  inline; */
+    top:  0;
+    left:  0;
+    right:  0;
+    bottom:  0;
+}
+.gm-style .gm-style-iw {
+    background: #37363a;
+}
+h4#firstHeading {
+    margin: 5px 0px;
+    font-family:  oswald;
+    width: 188px;
+}
+
+div#bodyContent p {
+    font-family: oswald;
+    font-size: 14px;
+    width:  200px;
+    font-weight:  normal;
+    color: #8c8c8c !important;
+}
+.staff_images .vc_column-inner{
+    background-size: contain !Important;
+}
+li a, .dropbtn{
+    font-size: 14px;
+}
+.dont_show{
+    display:none;
+}
+.sidebar_heading {        
+    margin-left: 10px;   
+    font-family: oswald;
+}
+.sidebar_menu_links li a {    
+    font-size: 17px;
+    font-family: oswald;
+    font-weight: normal;
+    margin-left: 0;
+        padding-left: 0 !important;
+
+}
+.sidebar_menu_links {
+    margin-left: 15px
+}
+.sidebar_left_cont a {
+    font-family: oswald !important;
+    font-weight: normal !important;
+    font-size: 19px;
+}
+h2.vc_custom_heading.sidebar_heading
+{
+    font-family: montserrat;
+    text-align: center !important;
+}
+span.vc_icon_element-icon.fa.fa-graduation-cap {
+    background: url(https://www.episcopalatlanta.org/images/icons/misc/community.png);
+    font-weight: bold;
+    padding: 0;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    float: left;
+    padding: 0.8em 0 0.8em 31%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+span.vc_icon_element-icon.fa.fa-graduation-cap::before {
+    content: "";
+}
+.sidebar_menu_div h2{ 
+  font-size: 28px;
+    margin-left: 0;
+    padding-left: 0;
+text-align: left !important
+}
+.sidebar_menu_div h2.vc_custom_heading.sidebar_heading  { text-align: left !important }
+.sidebar_menu_links ul li {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+.sidebar_menu_links {
+    margin-left: 0;
+}
+/****************what is means***********************/
+.wpb_text_column.wpb_content_element h1 {
+    font-family: oswaldbold;
+}
+.wpb_wrapper h3 {
+    font-family: librebaskerviller;
+    font-size: 22px;
+    line-height:  30px;
+    color: #8c8c8c !important;
+}
+.lvca-panel-title {
+    font-family:  oswaldbold;
+    font-size: 23px !important;
+}
+.lvca-panel-content {
+    font-family: librebaskerviller;
+    text-align:  justify;
+}
+.horizon_logo img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 29px;
+}
+.vc_custom_1518502939867 {
+    background-color: #eee !important;
+}
+.vc_custom_heading.col_title {
+    color: #9e9e9e !important;
+    font-size: 18px !important;
+}
+/******************get involve**********************/
+.vc_custom_heading.col_title {
+    color: #9e9e9e !important;
+    font-size: 18px !important;
+}
+
+.youth-box-wrap p {
+    font-family: montserratbold;
+    font-size: 16px !important;
+}
+.youth-box-2 p {
+    color: #9e9e9e !important;
+}
+
+@media (min-width: 320px){
+.demo-container {
+    width: 300px !important;
+    max-width: 100%;
+}
+}
+@media (min-width: 576px){
+.demo-container {
+    width: 540px !important;
+    max-width: 100%;
+}
+}
+@media (min-width: 768px){
+.demo-container {
+    width: 720px !important;
+    max-width: 100%;
+}
+}
+@media (min-width: 992px){
+.demo-container {
+    width: 960px !important;
+    max-width: 100%;
+}
+}
+@media (min-width: 1200px){
+    .demo-container
+    {
+        width: 1170px !important;
+        margin: 0px auto !important;
+        text-align: center !important;
+        max-width: 100%;
+        float: none !important;
+    }
+}
+@media (max-width: 1199px){
+    li a, .dropbtn{
+        padding: 9px 8px !important; 
+        font-size: 13px;
+    }
+    .worship_cont strong {
+    font-family: librebaskerviller;
+    font-size: 24px;
+    }
+}
+@media (max-width: 991px){
+    div#episcopalatlanta_menu {
+        margin: 10px 0px 0px 0px !important;
+        display: inline-block;
+        float: left;
+    }
+    .header_logo{
+        width: 250px;
+    }
+    .search-container{
+        height: 55px;
+    }
+    h2.slide-title{
+        font-size: 50px !important;
+    }
+    .slider_title{
+        font-size: 19px !important;
+    }
+    .wpb_wrapper p strong{
+        font-size: 17px !important;
+    }
+    .wpb_wrapper p{
+        font-size: 17px !important;
+    }
+    .wpb_wrapper .quote_content{
+        font-size: 17px;
+        padding-top: 30px;
+    }
+    .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+        margin-bottom: 35px !important;
+    }
+    .worship_cont strong {
+        font-size: 17px;
+    }
+    .meet-our-bishop .wpb_wrapper p strong {
+        font-size: 28px;
+    }
+    .meet-our-bishop .wpb_wrapper p {
+        font-size: 15px !important;
+    }
+    .wpb_wrapper h2 {
+        font-family: oswaldbold;
+        font-size: 25px;
+    }
+    .follow_us_container .link_text {
+    font-size: 14px;
+    font-weight: 500;
+    }
+    .link{
+        margin-left: 4px;
+    }
+    .wpb_text_column.wpb_content_element h1 {
+        font-size: 30px;
+    }
+    .wpb_text_column.wpb_content_element h3 {
+        font-size: 16px !important;
+    }
+    .lvca-panel-title {
+        font-size: 18px !important;
+    }
+    .lvca-panel-content {
+        font-size: 15px !important;
+        padding: 5px 30px!important;
+    }
+
+    .vc_custom_heading.col_title {
+    color: #9e9e9e !important;
+    font-size: 16px !important;
+}
+.youth-box-wrap .wpb_wrapper p {
+    font-family: montserratbold;
+    font-size: 14px !important;
+}
+
+}
+
+
+@media (max-width: 767px){
+    .header_buttons_container{
+        margin-top: 5px;
+    }
+    #episcopalatlanta_menu
+    {
+        display: none !important;
+    }
+    #wprmenu_menu_ul li {
+        display: block;
+        float: none;
+        text-align: left;
+    }
+    .menu-item a {
+        text-align: left;
+    }
+    .header_logo {
+        width: 225px;
+    }
+    .search-container
+    {
+        display: block;
+    margin-top: 31px !important;
+    margin-bottom: 0px !important;
+    }
+    .header_buttons_container {
+    height: 65px!important;
+}
+h2.slide-title {
+    font-size: 37px !important;
+    line-height: 45px;
+}
+.slider_title {
+    font-size: 16px !important;
+}
+.after_slider_content {
+    font-size: 14px;
+    font-family: librebaskerviller;
+    width: 100%;}
+    .meet-our-bishop .demo-container .vc_column-inner > .wpb_wrapper
+    {
+        width: 100%;
+        padding: 10px;
+        text-align: justify;
+        margin: 0px 0px 20px;
+    }
+    .footer_part1 .sub_cont {
+        padding: 0px;
+        text-align: center;
+    }
+    .footer_part1_title {
+        margin: 0px auto !important;
+        width: 100%;
+    }
+    .footer_part2 {
+    /* width: 41%; */
+    margin:  0px auto;
+    border:  none;
+}
+
+.other_link_container {
+    width: 49%;
+    margin: 0px;
+    padding: 4px;
+    text-align:  right;
+    float: left;
+}
+
+.other_link_title {
+    margin:  1px 0px;
+}
+
+.extra_link_container {
+    width: 49%;
+    margin: 0;
+    /* width: 0; */
+    padding: 4px;
+}
+
+.extra_link_title {
+    margin-bottom:  0px;
+}
+
+.footer_part1 {
+    border:  none;
+}
+
+.social-media-container.space .title {
+    /* margin:  0px auto; */
+    text-align:  center;
+    margin:  0px;
+}
+
+.link.social_section a {
+    margin:  0px;
+    padding:  0px;
+    display:  inline;
+    padding: 5px 7px;
+}
+
+.link.social_section {
+    margin: 0px auto;
+    display:  inline;
+}
+
+.footer_part3 {
+    border:  none;
+}
+
+.footer_part4 {
+    text-align:  center;
+}
+.follow_us_container .social {
+    margin: 10px auto !important;
+    text-align: center;
+}
+.copyright p {
+    margin-bottom: 0;
+}
+.footer-menu-container .menu-container li {
+    margin: 0px auto;
+    float: none;
+}
+.copyright {
+    margin: 5px 0px 0;
+}
+.copyright {
+    width:  100%;
+    text-align:  center;
+    margin: 5px 0px 0;
+}
+
+.menu-container {
+    width:  100%;
+    text-align: center !important;
+    margin:  0px auto !important;
+    float: none !important;
+    /* display:  inline !important; */
+}
+
+.footer-menu-container {
+    margin:  0px;
+    width:  100%;
+}
+
+.menu-container li {
+    margin:  0px auto;
+    float: none;
+}
+
+.copyright p {
+    margin-bottom: 0;
+}
+
+/*sidebar*/
+h2.vc_custom_heading.sidebar_heading {
+    margin:  0px;
+    padding: 5px;
+}
+
+ul#menu-bishops-staff-menu li, ul#menu-bishop-rob-wright-menu li {
+    display: block !important;
+    float:  none;
+    text-align:center;
+}
+
+.sidebar_menu_links ul {
+    width:  100%;
+}
+.sidebar_sep_div .wpb_column.vc_column_container {
+    width:  33.33%;
+    float:  left;
+}
+
+.sidebar_left_cont.wpb_column.vc_column_container {
+    width:  66.66%;
+    float:  right;
+}
+
+.vc_column-inner {}
+
+.sidebar_left_cont.wpb_column.vc_column_container .vc_column-inner {
+    padding:  0px !important;
+}
+
+.vc_row.wpb_row.vc_inner.vc_row-fluid.sidebar_sep_div.vc_row-has-fill {
+    width:  350px;
+    margin: 10px auto;
+}
+
+.vc_custom_heading.find_community_link {
+    vertical-align: middle !important;
+    position:  absolute;
+    top: 50px;
+    margin:  auto !important;
+}
+.vc_column-inner {
+    padding: 0px !important;
+}
+.sidebar_menu_div h2.vc_custom_heading.sidebar_heading {
+    text-align: center !important;
+}
+.sidebar_menu_div .vc_icon_element, 
+.sidebar_menu_div  .vc_icon_element {
+    margin-bottom: 0;
+}
+.sidebar_menu_div .vc_custom_heading.find_community_link {  
+    top: 30px;   
+}
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 20px !important;
+}
+.wpb_text_column.wpb_content_element h1 {
+    font-size: 25px;
+    margin: 10px;
+}
+.wpb_text_column.wpb_content_element h3 {
+    font-size: 15px !important;
+}
+.lvca-panel-title {
+    font-size: 16px !important;
+}
+.lvca-panel-content {
+    font-size: 14px !important;
+    padding: 5px 30px!important;
+}
+.youth-box-1,.youth-box-2,.youth-box-3, .youth-box-4, .youth-box-5 {
+    border:  none !important;
+    width:  300px !important;
+    margin:  0px auto !important;
+    text-align: center !important;
+}
+.youth-box-wrap position{
+    text-align: center;
+}
+}
+@media (max-width: 480px){
+    .wpb_wrapper h2{
+        margin-top: 10px !important;
+    }
+    img.header_logo {
+    position: relative !important;
+    }
+    .meet-our-bishop .wpb_wrapper p {
+    font-size: 13px !important;
+}
+
+div#episcopalatlanta_logo {
+    position:  relative;
+    width:  100%;
+}
+
+.header_buttons_container {
+    width:  100%;
+    }
+
+.header_menu_container {
+    display: inline-block;
+    width:  100%;
+}
+
+.find_church_btn_container {
+    float:  none;
+    height: 30px !important;
+}
+
+.search-container {
+    margin:  0px !important;
+    height: 25px !important;
+}
+    h2.slide-title {
+    font-size: 25px !important;
+    line-height: 30px;
+}
+.wpb_wrapper p {
+    font-size: 14px !important;
+}
+
+.slider_title {
+    font-size: 13px !important;
+    line-height: 16px !important;
+}
+    .sidebar_menu_links li a {
+    font-size: 15px !important;
+    padding: 3px 0px !important;
+}
+.after_slider_content {
+    font-size: 12px;
+    padding: 16px;
+    }
+h2.vc_custom_heading.sidebar_heading {
+    font-size: 22px;
+}
+.vc_row.wpb_row.vc_inner.vc_row-fluid.sidebar_sep_div.vc_row-has-fill {
+    width: 290px;}
+    .vc_custom_heading.find_community_link{
+        top: 35px;
+    }
+    .vc_icon_element.vc_icon_element-outer.comm_icon.wpb_animate_when_almost_visible.wpb_bounceIn.bounceIn.vc_icon_element-align-left.wpb_start_animation.animated {
+    margin:  0px;
+    padding: 20px;
+}
+.sidebar_menu_div .vc_icon_element {
+    margin: 0px;
+    padding: 0;
+}
+.sidebar_menu_div h2.vc_custom_heading.sidebar_heading {
+    text-align: center !important;
+}
+}

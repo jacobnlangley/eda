@@ -1,0 +1,595 @@
+.customcss{
+    display: none;
+}
+.feature_slide .post_feature_title {
+    font-family: oswald;
+    font-weight: normal !important;
+}
+.post_feature_text p {
+	font-size: 16px;
+	font-family: librebaskerviller;
+	line-height: 26px;
+	color: #999;
+}
+.pf_author_name {
+	font-family: librebaskerviller;
+}
+.pf_date_cat {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #999 !important;
+	font-size: 12px !important;
+	font-family: montserratsemib;
+}
+.featured_blogs_div h2, .annual-mag-slider h2, .feature_video_heading {
+	font-family: oswaldbold !important;
+}
+.feature_post_grid .fp_grid_title_hover {
+	/*font-family: montserratsemib;*/
+	font-size: 24px;
+	line-height: 29px;
+	font-family:oswald;
+	font-weight: normal;
+}
+.feature_post_grid .fp_grid_onhover p {
+	font-size: 17px !important;
+	color: rgba(255,255,255,0.7);
+}
+.featured_blogs_div a.btn_links.btn_link1, .feature_post_grid_cont a.btn_links.btn_link1 {
+	/*border-radius: 20px !important;*/
+}
+.featured_blogs_div .pf_read_more a.btn_links.btn_link1, .feature_post_grid_cont a.btn_links.btn_link1 {
+	/*border-radius: 20px !important;*/
+}
+.featured_blogs_div .pf_read_more a.btn_links.btn_link1:hover {
+	background: #fff;
+	/*border-radius: 20px !important;*/
+}
+.volunteers-slider .wp-medium-5.wpcolumns {
+	width: 65%;	
+}
+.volunteers-slider .wp-medium-7.wpcolumns {
+	width: 35%;
+	min-height: 355px;
+	max-height: 800px;
+	height: auto;
+}
+.volunteers-slider.annual-mag-slider .wp-post-title a {
+	font-family: montserratbold;
+	font-size: 24px !important;
+	width: 100% !important;
+	display: inline-block;
+	line-height: 29px !important;
+}
+.volunteers-slider.annual-mag-slider .wp-post-date {
+	font-family: librebaskerviller;
+	font-size: 12px !important;
+	color: #999;
+	font-style: italic;
+	letter-spacing: 0;
+}
+.volunteers-slider.annual-mag-slider .wp-sub-content {
+	font-family: librebaskerville;
+	font-size: 17px;
+	color: #999;
+	line-height: 21px;
+	letter-spacing: 0.3px;
+}
+.volunteers-slider.annual-mag-slider .wp-sub-content a {
+	border-radius: 20px !important;
+}
+.volunteers-slider .recent-post-slider .slick-dots {
+	border-color: #ccc !important;
+}
+.volunteers-slider .recent-post-slider .slick-dots li.slick-active button, .volunteers-slider .recent-post-slider .slick-dots li button {
+	background: #ccc !important;
+	border: 1px solid #ccc;
+}
+.pathway_image .vc_column-inner {
+	border-radius: 6px;
+}
+h2.pathway_title {
+	font-size: 23px !important;
+	font-family: oswaldbold !important;
+}
+.pathway_text .wpb_wrapper p {
+	font-size: 14px;
+	font-family: librebaskerviller !important;
+	line-height: 23px !important;
+	color: rgba(255,255,255,0.8);
+	letter-spacing: 1px;
+	font-style: normal;
+}
+.order_copy_btn .btn_links {
+	font-family: montserratsemib;
+	/*border-radius: 20px !important;*/
+}
+.annual_magzine_div .order_copy_btn a.btn_links:hover {
+	background: #fff;
+	color: #4d307d !important;
+	border: 1px solid #4d307d !important;
+}
+.inspiration_video_div .wpb_video_wrapper iframe, #video-list {
+	/*border-radius: 5px !important;*/
+}
+.faq_accordian_div .lvca-panel-title {
+	    /*font-family: montserratsemib !important;*/
+}
+#video-list {
+	background: #3C3D41;	
+}
+.inspiration_video_div #video-list .vc_column-inner {	
+	padding: 0;
+}
+#video-list .wpb_wrapper p {
+	font-family: montserratsemib;
+	letter-spacing: 0.5px;
+	font-size: 15px;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+#video-list .wpb_wrapper h2 {
+	font-family: montserratsemib;
+	font-size: 15px;
+	text-align: left;
+	padding: 12px 10px;
+	margin: 0;
+	color: #fff;
+}
+#video-list .wpb_text_column.wpb_content_element {
+	margin-bottom: 0 !important;
+}
+#video-list .wpb_video_wrapper {
+	width: 90% !important;
+	margin: 0 auto;
+}
+.wpb_video_widget {
+	margin-bottom: 0px !important;
+}
+.insta_title.feat_blog {
+	font-family: oswaldbold !important;
+}
+.life_at_slider_cont h2.slide-title {
+    /*font-family: montserratbold !important;*/
+    font-family: oswaldbold !important;
+}
+.life_at_grid_div h2.vc_custom_heading.life_at_heading, h2.vc_custom_heading.place_belong_heading {
+    /*font-family: montserratbold !important;*/
+    font-family: oswaldbold !important;
+}
+.wp-post-title.fp_grid_title {
+    font-family: oswald;
+    font-weight: normal;
+}
+.feature_post_grid .fp_grid_title_hover,  {
+    /*font-family: montserratbold;*/
+    font-size: 23px;
+    line-height: 29px;
+    font-family: oswald;
+    font-weight: normal;
+}
+.meet_bishop_div h2 {
+    font-weight: normal !important;
+    /*font-family: montserratbold !important;*/
+    font-family: oswaldbold !important;
+} 
+.meet_bishop_content p {
+    font-size: 15px;
+}
+.meet_staff_btn a.btn_links.btn_link1:hover, .meet_staff_btn a.btn_links.btn_link1:focus {
+    background: #fff;
+}
+.find_feature_location h2 {
+	/*font-family: montserratbold !important;*/
+}
+/*a.btn_links.btn_link1 {
+    border-radius: 20px !important;
+}*/
+.faq_title_large {    
+    font-weight: normal !important;    
+    /*font-family: montserratbold !important;*/
+    font-family: oswaldbold !important;
+}
+.lvca-panel-content p {
+    line-height: 26px;
+}
+.lvca-panel-content p b {
+	font-family: worksanssemib;
+}
+.lvca-panel-content p, .lvca-panel-content ul li, .lvca-panel-content ul li a {
+    font-size: 16px !important;
+}
+.lvca-panel-content ul {
+    width: 100% !important;
+}
+.lvca-accordion.lvca-style1 .lvca-panel {   
+    margin-top: 5px;
+}
+
+.marker{
+
+    background: url(http://magentoshopify.com/projects/episcopalatlanta/wp-content/uploads/2018/02/pin.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*.btn_find_church{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.btn_find_church:hover{
+	color: #fff !important;
+}*/
+.find_church_map .srch_title, .find_church_map .church_result_title, .chrch_search_cont .srch_title {
+	font-size: 25px;
+	color: #333333;
+	font-weight: bold;
+	font-family: oswald;
+}
+.find_church_map input#church_search, .chrch_search_cont input#church_search {
+	background: #eeeeee;
+	height: 40px;
+	font-family: montserrat;
+}
+.find_church_map .stylish-input-group .input-group-addon {
+	background: none;		
+	font-size: 24px;	
+}
+.find_church_map .stylish-input-group .input-group-addon i,
+.chrch_search_cont .stylish-input-group .input-group-addon i {
+	color: #999;
+}
+.find_church_map .sort_filter select, .chrch_search_cont .sort_filter select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.find_church_map .sort_filter select::-ms-expand, .chrch_search_cont .sort_filter select::-ms-expand {
+  display: none;
+}
+.find_church_map .sort_filter select, .chrch_search_cont .sort_filter select {
+	border: none !important;
+	width: 100%;
+	color: #605858 !important;
+	font-family: montserrat;
+	letter-spacing: 0;
+	font-size: 11px !important;
+}
+.find_church_map .sort_filter::after, .chrch_search_cont .sort_filter::after {
+	content: '\f107';
+	display: inline-block;
+	font-family: FontAwesome;
+	display: inline-block;
+	padding-right: 6px;
+	vertical-align: middle;
+	color: #4f4f4f;
+}
+.find_church_map .sort_filter select, .chrch_search_cont .sort_filter select {
+	/*width: calc(100% - 21px) !important;*/
+	width: 100% !important;
+	padding-right: 21px !important;
+}
+.find_church_map .sort_filter, .chrch_search_cont .sort_filter {
+	border-bottom: 2px solid #ccc;
+	color: #ccc;
+}
+.find_church_map .church_search_div {
+	overflow: hidden;
+	padding-left: 0;
+}
+.find_church_map .church_list_container:hover {
+	border-left: 7px solid #4d307d;	
+	background: #F4F4F4;
+}
+.find_church_map .church_list_container {
+	padding-left: 10px;
+}
+.find_church_map .chrch_search_cont {
+	padding: 20px 0 0 20px;
+}
+.find_church_map .church_result_title {
+	padding-left: 20px;
+}
+.find_church_map .church_title {
+	font-family: worksansbold;
+}
+.find_church_map .church_title a {
+	color: #333333;
+    font-size: 16px;
+}
+.find_church_map .church_content .church_addr, .find_church_map .church_content .chr_cat,
+.find_church_map .church_content .church_description {
+	width: calc(100% - 110px);
+	/*font-family: montserrat;*/
+	letter-spacing: 0.5px;
+	font-size: 9px;
+	float: left;
+}
+
+.find_church_map .church_content .church_description, .find_church_map .church_content .church_addr{
+	letter-spacing: 0;
+	font-family: worksans;
+	font-size: 14px !important;
+    color: #333;
+}
+
+.find_church_map .church_content .church_addr {
+	color: #333333 !important;
+}
+.find_church_map .church_list_container {
+	/*padding-left: 10px;*/
+	padding-left: 21px;
+	padding-top: 8px;	
+	margin: 5px 0;
+	padding-bottom: 8px;
+	/*border-bottom: 1px solid #f5f5f5;*/
+}
+.find_church_map .church_filter_sort {	
+	margin-left: 0;	
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+@media (min-width: 1200px) {
+	.eda_inner_container {	
+	    padding-bottom: 335px;
+	}
+
+}
+@media (max-width: 1199px) {
+	img.post_feature_img {
+	/* width: 88%; */
+		width: auto;
+		height: auto;
+		border-radius: 12px;
+		max-width: 100%;
+	}
+	.find_church_map .sort_filter{	
+		width: 100% !important;
+	}
+	.find_church_map .chrch_search_cont {
+		padding-left: 10px;
+		/*padding-right: 5px;*/
+	}
+	.find_church_map  #imaginary_container {
+		/* margin-top: 20%; */
+		width: 100%;
+	}
+	.row.church_map_search.find_church_map {
+	    height: auto;
+	}
+}
+@media (max-width: 991px) {
+	 .chrch_search_cont .church_filter_sort .sort_filter, .page-id-2341 .sort_near.sort_filter.lang_filter {	
+		width: 100% !important;
+	}
+	.feature_slide .post_feature_title {		
+		font-size: 20px;
+	}
+	.post_feature_text p {
+		font-size: 14px !important;		
+		line-height: 21px;
+		color: #999;
+	}
+	.post-slides.feature_slide .wp-medium-5.wpcolumns, .post-slides.feature_slide .wp-medium-7.wpcolumns {
+		/*width: 100%;*/
+	}
+	.feature_post_grid_cont .fp_grid_colums {
+		width: 49%;
+		margin: 10px 0;
+	}
+	.volunteers-slider .wp-medium-5.wpcolumns, .volunteers-slider .wp-medium-7.wpcolumns {
+		width: 100%;
+		padding: 0;
+	}
+	.pathway_div .vc_col-sm-4 {
+		width: 100%;
+	}
+	.pathway_div .vc_col-sm-4 .vc_column-inner {
+    padding-top: 0px;
+	}
+	.order_copy_btn .btn_div, .annual_magzine_div .order_copy_btn a.btn_links {
+		margin-top: 0;
+	}	     
+	.pathway_div .vc_col-sm-5 {
+		width: calc(100% - 250px);
+	}      
+	.inspiration_video_div .wpb_column.vc_column_container, .inspiration_video_div .vc_column-inner {
+		width: 100%;
+		padding: 0;
+	}  
+	.faq_accordian_div .wpb_column.vc_column_container.vc_col-sm-4 {
+	    width: 100%;
+	    padding: 0 15px;
+	}
+	.faq_category_heading_div .wpb_column.vc_column_container.vc_col-sm-8 {
+	    width: 100%;
+	    padding: 0 15px;
+	}
+	.faq_category_heading_div .wpb_column.vc_column_container.vc_col-sm-8 {	
+	    margin-top: 20px;
+	}
+	.faq_top_div {
+	    margin: 0 !important;
+	    padding: 0 15px !important;
+	}
+	.find_church_map .church_map_div, .find_church_map .church_search_div {
+		width: 100% !important;
+		display: inline-block;
+		float: left;
+		max-width: 100% !important;
+	}
+	.find_church_map .chrch_search_cont, .chrch_search_cont {
+		width: 100% !important;
+		padding: 10px 0 !important;
+		text-align: left;
+	}
+	
+	.find_church_map button#find_church_button {
+		background-color: none !important;
+		background: none !important;
+		background: none !important;
+		box-shadow: none !important;
+		border: none !important;
+	}
+	.find_church_map #find_church_button i{
+		font-size: 25px !important;
+		line-height: 13px;
+	}
+	.find_church_map .sort_filter select {
+		border: none !important;
+		width: 100%;
+		color: #605858 !important;
+		font-family: montserrat;
+		letter-spacing: 0;
+		font-size: 11px !important;
+	}
+	.find_church_map  .sort_filter::after {
+	    content: '\f107';
+	    display: inline-block;
+	    font-family: FontAwesome;
+	    display: inline-block;
+	    padding-right: 6px;
+	    vertical-align: middle;
+	    color: #4f4f4f;
+	}
+	.find_church_map .sort_filter select {
+		appearance: none;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+	}
+	.find_church_map .church_map_div, .find_church_map .church_search_div {
+		width: 98% !important;
+		display: inline-block;
+		float: left;
+		max-width: 98% !important;
+		flex: 0 0 100%;
+		padding: 0 10px;
+		box-sizing: border-box;
+	}
+	.find_church_map .church_map_div {
+		height: 500px;
+	}
+	.chrch_search_cont {
+	    padding: 0 10px;
+	}
+	.chrch_search_cont span.input-group-addon {
+	    border: none;
+	    box-shadow: none;
+	    padding: 3px 5px;
+	}
+	.find_church_sub_head.find_church_map:before {
+	    /*bottom: -2% !important;*/
+	}
+	.find_church_sub_head.find_church_map:before {
+	    content: "\f0d7";
+	    font-family: FontAwesome;
+	    left: 0%;
+	    position: absolute;
+	    bottom: -50%;
+	    font-size: 50px;
+	    right: 0;
+	    color: #482173;
+	    z-index: 1;
+	    pointer-events: none;
+	}
+	
+	.slid li a {margin: 14px 0;}
+}
+@media (min-width: 991px) and (max-width: 768px) {
+	.header_buttons_container {position: relative;}
+}
+@media (max-width: 767px) {
+	.single_feature_post_div {
+	    padding: 0 15px;
+	}
+	.pf_right {
+	    width: calc(95% - 65px);
+	}
+	.fp_grid_container {
+	    width: 100% !important;
+	    display: inline-block;
+	    text-align: center;
+	}
+	.feature_post_grid_cont .fp_grid_colums {
+	    width: 400px;
+	    margin: 10px 0;
+	    float: none;
+	    display: inline-block;
+	}
+	.pathway_div {
+	    width: 100%;
+	    text-align: center;
+	    padding: 0 15px;
+	    margin: 0 auto;
+	}
+	.find_church_map .church_map_div {height: 300px;}
+}
+
+@media (max-width: 767px) {
+	.feature_post_grid_cont .fp_grid_colums {
+	    width: 300px;	   
+	}
+	.vc_custom_1519119612708 {background-size: contain !important;}
+	.pathway_div .vc_col-sm-5 {
+	    width: 100%;
+	}
+	.inspiration_video_div.feat_blog {
+	    padding-top: 0%;
+	    padding: 0 15px !important;
+	    width: 100%;
+	    margin: 0 auto;
+	    float: none;
+	}
+	.place_belong_text {
+	    padding: 0 20px;
+	    width: 100%;
+	    display: inline-block;
+	    margin: 0 !important;
+	}
+	.meet_bishop_div .wpb_wrapper {
+	    padding: 0 15px !important;
+	    width: 100% !important;
+	    display: inline-block;
+	    margin: 0 !important;
+	    text-align: left;
+	}
+	.meet_bishop_div h2 {
+	    padding: 0 15px !important;
+	}
+	.meet_bishop_content {
+	    width: 100%;
+	}
+	.find_feature_location p {
+	    padding: 0 15px !important;
+	    width: 97%;
+	    display: inline-block;	
+	}
+	.vc_custom_1519134543858 {	
+	    background-position: left -200px center!important;	
+	}
+	.faq_category_heading_div, .faq_accordian_div {
+	    margin: 0 !important;
+	    padding: 0 15px !important;
+	}
+	.faq_title_large {font-size: 28px !important}
+}
+
+@media (max-width: 480px) {
+	.church_filter_sort .sort_filter {
+	    width: 100% !important;
+	}
+	.church_filter_sort {
+	    width: 100% !important;
+	    padding: 0 10px;
+	    box-sizing: border-box;
+	    margin: 10px 0;
+	}
+	.chrch_search_cont {
+	    padding: 0px 20px;
+	    width: 100%;
+	    display: inline-block;
+	}
+}

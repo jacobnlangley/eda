@@ -1,0 +1,294 @@
+/*img.blog_post_img {
+    width: 100%;
+}
+*/
+
+img.blog_post_img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    /*max-height: 350px;*/
+}
+.blog_posts_div {
+    /* text-align: left; */
+    margin-top: 3%;
+    /*background: #80808026;*/
+        padding-top: 3%;
+        margin-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.blog_post_title a {
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+}
+
+.blog_post_title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+.blog_post_description p {
+    font-size: 17px;
+}
+
+.blog_post_description {
+	text-align: justify;
+}
+
+.blog_posts_tags {
+    text-align: left;
+    margin-top: 2%;
+}
+
+.blog_posts_tags p {
+    font-size: 15px;
+}
+
+.blog_news_main_container {
+    margin-top: 4%;
+}
+
+.blog_post_grid .col-sm {
+    padding: 16px;
+    border: 2px solid #fff;
+}
+
+.blog_post_grid {
+    background: #80808038;
+    margin-right: 13%;
+    margin-top: 6%;
+}
+
+.blog_stories_div.blogpost_stories_ {
+    /*width: 90%;*/
+        margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.blog_stories_feature_image {
+        padding: 2%;
+}
+
+.blog_stories_right {
+    display: inline-block;
+    width: 61%;
+    text-align: left;
+     line-height: 20px;
+}
+
+.blog_stories_title a {
+    color: #333;
+    font-weight: 500;
+     display: inline-block;
+    width: 100%;
+    line-height: 16px;
+}
+
+.blog_stories_lists {
+    margin-top: 5%;
+    width: 98%;
+}
+
+.blog_stories_description {
+    font-size: 11px;
+    text-align: left;
+}
+
+.blog_stories_feature_image img {
+    width: 100px;
+    height: 100px;
+}
+
+.blog_stories_title a {
+    font-size: 12px;
+}
+
+
+.blog_single_div {
+    margin-top: 3%;
+}
+
+.blog_single_title a {
+    color: #333;
+}
+
+.blog_single_date {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-style: italic;
+    margin-left: 2px;
+}
+
+/*.blog_single_feature_image img {
+    width: 65%;
+}
+*/
+
+.blog_single_feature_image img {    
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
+.blog_single_description {
+    margin-top: 2%;
+}
+
+.btn_div.single_blog_purchase {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*.custom_event_div {
+    padding: 2%;
+}*/
+
+.full_calender_container {
+    margin-top: 3%;
+}
+
+li.eo-event-future {
+    margin-bottom: 1%;
+}
+
+ul.eo-event-meta li {
+    clear: both;
+}
+
+.calender_top_section {
+    /*padding-top: 4%;*/
+    padding-bottom: 4%;
+    margin-left: 2% !important;
+    margin-right: 0% !important;
+}
+
+
+
+.event_calender_div {
+    padding-left: 2%;
+}
+
+
+.event_addr {
+    text-align: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-style: italic;
+}
+
+span.event_addr_span {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.leader_visitation_heading {
+    margin-bottom: 10%;
+}
+
+.sub_leader_visit_text {
+    text-align: left;
+}
+
+.sub_leader_visit_text p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.sub_leader_visit_title{
+	font-weight: 600 !important;
+    font-family: inherit !important;
+    font-size: 18px !important;
+}
+
+.leader_visitation_div {
+    width: 23% !important;
+    padding-left: 1%;
+}
+
+.vc_custom_heading.leader_visit_title {
+    width: 89%;
+    padding-top: 5%;
+}
+
+.full_calender_container.demo-container {
+    margin-top: 2% !important;
+}
+
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    color: #fff;
+    text-decoration:none;
+}
+ 
+.navigation li {
+    display: inline;
+}
+ 
+.navigation li a,
+.navigation li a:hover,
+.navigation li.active a,
+.navigation li.disabled {
+    background-color: #6FB7E9;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 12px;
+    padding: 0.75rem;
+}
+ 
+.navigation li a:hover,
+.navigation li.active a {
+    background-color: #3C8DC5;
+}
+
+.vc_custom_heading.content_heading.resource_title{
+    margin-bottom: 5% !important;
+}
+
+/*.content_headingr.esource_quote{
+    margin-bottom: 4%;
+}*/
+
+
+/*jay DT 01/03/2018 */
+.financecanonsheading{
+    font-weight: 400 !important;
+    font-family: weiss w01 roman !important;
+    margin-bottom: 30px;
+}
+.normalheading{
+    font-weight: 400 !important;
+    font-family: weiss w01 roman !important;
+}
+.webtextcolor{
+    color: #4d307d !important;
+}
+.webnormalbackcolor{
+    background-color: #4d307d !important;
+}
+.webbackcolor{
+    background-color: #4d307d !important;
+    margin-bottom: 25px;
+}
+/*.webnormalbackcolor:hover{
+    color: #EEE !important;
+}*/
+
+.genres {
+    padding: 0px 0px;
+}
+
+.sizead{
+    margin-top: 0% !important;
+    margin-bottom: 3% !important;
+}
+.sizeadsep{
+    margin-top: 3%;
+    margin-bottom: 3% !important;
+}
